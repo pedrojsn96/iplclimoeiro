@@ -9,67 +9,35 @@ const AboutUs: React.FunctionComponent = () => {
             <section className="bg-gray-50 dark:bg-gray-800">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     {/* <!-- Row --> */}
-                    <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Work with tools you already use</h2>
-                            <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-                            {/* <!-- List --> */}
-                            <ul role="list" className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Continuous integration and deployment</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Development workflow</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge management</span>
-                                </li>
-                            </ul>
-                            <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Quem Somos</h2>
+                            <p className="mb-8 font-light lg:text-xl">O Instituto Padre Luis Cecchin é uma instituição filantrópica de natureza civil e caráter beneficente, que atua desde 1970 prestando assistência a crianças, adolescentes, jovens de suas famílias em situação de risco e vulnerabilidade social. Oferecendo assistência, formação humana e cristã, educação e profissionalização, buscando interferir nas estruturas sociais para o exercício da cidadania, podendo ser um agente de transformação a fim de integrar e apostar como sujeitos da nova sociedade, pautados na dimensão dos valores da vida, ética, espiritualidade, respeito, qualidade, honestidade, espírito de família, formação integral, profissionalismo, responsabilidade, simplicidade e solidariedade.</p>
                         </div>
                         <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={FeatureImage1} alt="dashboard feature image" />
                     </div>
                     {/* <!-- Row --> */}
-                    <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={FeatureImage2} alt="feature image 2" />
                         <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">We invest in the world’s potential</h2>
-                            <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-                            {/* <!-- List --> */}
-                            <ul role="list" className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Dynamic reports and dashboards</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Templates for everyone</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Development workflow</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Limitless business automation</span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* <!-- Icon --> */}
-                                    <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge management</span>
-                                </li>
-                            </ul>
-                            <p className="font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nossa Missão</h2>
+                            <p className="mb-8 font-light lg:text-xl">Promover crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa, buscando interferir nas estruturas sociais para o exercício da cidadania.</p>
+                        </div>
+                    </div>
+                    {/* <!-- Row --> */}
+                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
+                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nossa Visão</h2>
+                            <p className="mb-8 font-light lg:text-xl">Ser um agente de transformação a fim de integrar crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social apostando como sujeitos da nova sociedade, economicamente desfavorecidas, apostando como sujeitos da nova sociedade.</p>
+                        </div>
+                        <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={FeatureImage1} alt="dashboard feature image" />
+                    </div>
+                    {/* <!-- Row --> */}
+                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                        <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={FeatureImage2} alt="feature image 2" />
+                        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
+                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nossos Valores</h2>
+                            <p className="mb-8 font-light lg:text-xl">O ser humano é a nossa preocupação fundamental onde toda nossa ação deve estar pautada na busca da sua realização plena e em todos os sentidos.</p>
                         </div>
                     </div>
                 </div>
