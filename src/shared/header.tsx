@@ -27,9 +27,9 @@ const Header: React.FunctionComponent = () => {
         <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} active={pathname === ROUTER_PATHS.SOBRE_NOS}>Sobre nós</Navbar.Link>
         <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN)} active={pathname === ROUTER_PATHS.PE_LUIS_CECCHIN}>Padre Luis Cecchin</Navbar.Link>
         <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ONDE_ATUAMOS)} active={pathname === ROUTER_PATHS.ONDE_ATUAMOS}>Onde atuamos</Navbar.Link>
-        <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.NOTICIAS)} active={pathname === ROUTER_PATHS.NOTICIAS}>Notícias</Navbar.Link>
+        {/* <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.NOTICIAS)} active={pathname === ROUTER_PATHS.NOTICIAS}>Notícias</Navbar.Link> */}
         <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.TRANSPARENCIA)} active={pathname === ROUTER_PATHS.TRANSPARENCIA}>Transparência</Navbar.Link>
-        <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.CONTATO)} active={pathname === ROUTER_PATHS.CONTATO}>Contato</Navbar.Link>
+        {/* <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.CONTATO)} active={pathname === ROUTER_PATHS.CONTATO}>Contato</Navbar.Link> */}
       </Navbar.Collapse>
     </Navbar>
   );
