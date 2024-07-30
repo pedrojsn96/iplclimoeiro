@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { AboutUs, Header, Hero, News, Footer } from './components';
+import { AboutUs, Hero, News } from './components';
+import { Header, Footer } from '../../shared';
 
 const Home: React.FunctionComponent = () => {
 

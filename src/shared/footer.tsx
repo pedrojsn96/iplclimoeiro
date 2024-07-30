@@ -1,8 +1,8 @@
 import React from 'react';
 import { Footer as FlowbiteFooter } from 'flowbite-react';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-import LogoImage from '../../../images/logo-iplc.svg';
-import PobresServosLogoImage from '../../../images/pobres-servos-horizontal.svg';
+import LogoImage from '../images/logo-iplc.svg';
+import PobresServosLogoImage from '../images/pobres-servos-horizontal.svg';
 
 const Footer: React.FunctionComponent = () => {
 
