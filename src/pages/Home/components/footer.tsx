@@ -10,21 +10,19 @@ const Footer: React.FunctionComponent = () => {
     <FlowbiteFooter container>
       <div className="w-full">
         <FlowbiteFooter.Divider />
-        <div className="flex items-center justify-center" style={{ height: 100 }}>
+        <div className="flex items-center justify-center">
             <div className="grid grid-cols-2 items-center">
                 <FlowbiteFooter.Brand
                     href="#"
                     src={LogoImage}
                     alt="IPLC Logo"
                     className='flex items-center justify-center'
-                    style={{width: 60, height: 60}}
                     />
                 <FlowbiteFooter.Brand
-                href="https://www.pobresservos.org.br"
-                src={PobresServosLogoImage}
-                alt="Pobres Servos"
-                className='flex items-center justify-center'
-                style={{width: 120, height: 120}}
+                  href="https://www.pobresservos.org.br"
+                  src={PobresServosLogoImage}
+                  alt="Pobres Servos"
+                  className='flex items-center justify-center'
                 />
             </div>
         </div>
