@@ -74,7 +74,7 @@ Padre Luis viveu de forma muito simples e apenas com o necessário. Portanto, en
                             <img src={Memorial7} alt="..." />
                             <img src={Memorial8} alt="..." />
                         </Carousel>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
