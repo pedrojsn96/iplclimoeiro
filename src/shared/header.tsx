@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoImage from '../images/logo-default.svg';
+import LogoImage from '../images/logo-iplc.svg';
 import { Button, Navbar } from "flowbite-react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import ROUTER_PATHS from '../router/constants';
@@ -9,9 +9,9 @@ const Header: React.FunctionComponent = () => {
   const { pathname } = useLocation();
 
   return (
-    <Navbar className="grid max-w-screen-xl px-4 pt-8 pb-8 mx-auto">
+    <Navbar className="grid max-w-screen-xl px-4 pt-8 pb-8 mx-auto items-center">
       <Navbar.Brand style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.HOME)}>
-        <img src={LogoImage} className="mr-3 h-6 sm:h-9" alt="IPLC" />
+          <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-20 max-w-20" src={LogoImage} alt="IPLC Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button color="primary" onClick={() => navigate(ROUTER_PATHS.HOME)} size="lg">

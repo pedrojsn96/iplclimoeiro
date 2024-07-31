@@ -17,7 +17,10 @@ module.exports = {
         rubikBold: ['Bold']
       },
       colors: {
-        iplc: '#00AFA9'
+        iplc: {
+          DEFAULT: '#00AFA9',
+          light: 'rgb(0,175,169,0.7)'
+        }
       }
     }
   },

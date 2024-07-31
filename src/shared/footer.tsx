@@ -9,29 +9,22 @@ const Footer: React.FunctionComponent = () => {
   return (
     <FlowbiteFooter container>
       <div className="w-full">
-        <FlowbiteFooter.Divider />
         <div className="flex items-center justify-center">
             <div className="grid grid-cols-2 items-center">
-                <FlowbiteFooter.Brand
-                    href="#"
-                    src={LogoImage}
-                    alt="IPLC Logo"
-                    className='flex items-center justify-center'
-                    />
-                <FlowbiteFooter.Brand
-                  href="https://www.pobresservos.org.br"
-                  src={PobresServosLogoImage}
-                  alt="Pobres Servos"
-                  className='flex items-center justify-center'
-                />
+              <a href='#'>
+                <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-20 max-w-20" src={LogoImage} alt="IPLC Logo" />
+              </a>
+              <a href='https://www.pobresservos.org.br/' target='_blank'>
+                <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-36 max-w-36" src={PobresServosLogoImage} alt="IPLC Logo" />
+              </a>
             </div>
         </div>
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 items-center">
-            <FlowbiteFooter.Copyright href="#" by="IPLC. Todos os direitos reservados." year={2024} />
+            <FlowbiteFooter.Copyright href="" by="IPLC. Todos os direitos reservados." year={2024} className="font-rubikMedium" />
             <div className="mt-4 flex space-x-2 sm:mt-1 justify-center">
-                <FlowbiteFooter.Icon href="#" icon={BsFacebook} />
-                <FlowbiteFooter.Icon href="#" icon={BsInstagram} />
+                <FlowbiteFooter.Icon href="https://www.facebook.com/IPLCLimoeiro.pe" target='_blank' icon={BsFacebook} />
+                <FlowbiteFooter.Icon href="https://www.instagram.com/iplclimoeiro/" target='_blank' icon={BsInstagram} />
             </div>
           </div>
         </div>
