@@ -1,16 +1,14 @@
 import React from 'react';
 
-import FeatureImage1 from "../../../images/feature-1.png";
 import AboutImage from "../../../images/iplc-about.png";
 import MissaoImage from "../../../images/iplc-missao.png";
 import VisaoImage from "../../../images/iplc-visao.png";
 import ValoresImage from "../../../images/iplc-valores.png";
-import FeatureImage2 from "../../../images/feature-2.png";
 
 const AboutUs: React.FunctionComponent = () => {
     return (
         <React.Fragment>
-            <section className="bg-zinc-50">
+            <section className="bg-gray-50">
                 <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                     {/* <!-- Row --> */}
                     <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16 items-center">
