@@ -12,5 +12,4 @@ html,
 body,
 #root {
 	height: 100%;
-	background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }

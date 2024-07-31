@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "Regular";
+	src: local("Rubik-Regular"), 
+		url("./assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Medium";
+	src: local("Rubik-Medium"), 
+		url("./assets/fonts/Rubik-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Light";
+	src: local("Rubik-Light"), 
+		url("./assets/fonts/Rubik-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Bold";
+	src: local("Rubik-Bold"), 
+		url("./assets/fonts/Rubik-Bold.ttf") format("truetype");
+}
+
 * {
 	outline: 0;
 	box-sizing: border-box;
-	font-family: 'Muli', sans-serif;
 }
 
 html,
