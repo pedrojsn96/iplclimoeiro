@@ -51,7 +51,9 @@ const Header: React.FunctionComponent = () => {
           </MegaMenu.Dropdown>
         </Navbar.Link>
         <Navbar.Link style={{ cursor: 'pointer' }} className="font-rubikRegular hover:text-iplc" active={pathname.includes(ROUTER_PATHS.ATIVIDADES)}>
-          <MegaMenu.Dropdown toggle={<>Atividades</>}>
+          <MegaMenu.Dropdown toggle={
+            <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES)} className='font-rubikRegular hover:text-iplc'>Atividades</Navbar.Link>
+          }>
             <ul className="grid grid-cols-1">
               <div className="space-y-4 p-4">
                 <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES)} className='font-rubikRegular hover:text-iplc'>Atividades</Navbar.Link></li>
