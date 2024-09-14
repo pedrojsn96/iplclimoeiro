@@ -5,6 +5,7 @@ import Router from './router';
 const App: React.FunctionComponent = () => {
   return (
       <Router />
+      // add botao do whatsapp
   )
 }
 
