@@ -14,7 +14,7 @@ const Sociofamiliar: React.FunctionComponent = () => {
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Sociofamiliar</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Favorece sustentabilidade através da geração de renda, por meio do acompanhamento às famílias agricultoras, oferecendo terra pronta para o plantio de legumes, verduras e hortaliças, no qual as famílias realizam um trabalho de forma programada, continuada e gratuita, com a finalidade de garantir formação humana, social cristã e política para sua subsistência.</p>
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Favorece sustentabilidade através da geração de renda, por meio do acompanhamento às famílias agricultoras, oferecendo terra pronta para o plantio de legumes, verduras e hortaliças, no qual as famílias realizam um trabalho de forma programada, continuada e gratuita, com a finalidade de garantir formação humana, social cristã e política para sua subsistência.</p>
                 </div>
             </div>
           </div>

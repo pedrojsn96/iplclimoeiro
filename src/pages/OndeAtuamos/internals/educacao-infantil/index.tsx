@@ -14,7 +14,7 @@ const EducacaoInfantil: React.FunctionComponent = () => {
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Educação</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                     A Prefeitura Municipal de Limoeiro em conformidade com as diretrizes das Políticas Públicas de
 Educação, viabiliza atendimento na modalidade de Educação Infantil. Nesse contexto, o Instituto
 Padre Luís Cecchin através da celebração de um ACORDO DE COOPERAÇÃO com o

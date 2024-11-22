@@ -15,7 +15,7 @@ const FormacaoGeral: React.FunctionComponent = () => {
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Cursos Profissionalizantes</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                     O Instituto Padre Luís Cecchin, buscando atender às demandas dos jovens do município de
 Limoeiro/PE, oferece programas de qualificação profissional com foco na inserção no mercado de
 trabalho, contemplando as modalidades de Corte e Costura, Costura Industrial, Informática Básica,
@@ -32,7 +32,7 @@ na formação dos beneficiários.
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Agricultura Familiar</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                     O Instituto Padre Luís Cecchin desenvolve um projeto voltado para a promoção da geração de renda
 junto a jovens, adultos e suas famílias, denominado de Agricultura. Nesse projeto, são
 disponibilizados espaço de terra para que as famílias realizem o cultivo de alimentos. A partir da
