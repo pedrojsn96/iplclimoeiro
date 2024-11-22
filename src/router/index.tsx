@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route}  from 'react-router-dom';
 import { Contato, Home, Noticias, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia } from '../pages';
 import ROUTER_PATHS from './constants';
+import { ProjetoCaridade, EducacaoInfantil, FormacaoGeral, ServicoConvivencia, Sociofamiliar } from '../pages/OndeAtuamos/internals';
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -19,11 +20,11 @@ const Router: React.FunctionComponent = () => {
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CAUSA} Component={PeLuisCecchin} />
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CENTENARIO} Component={PeLuisCecchin} />
             <Route path={ROUTER_PATHS.ATIVIDADES} Component={OndeAtuamos} />
-            <Route path={ROUTER_PATHS.ATIVIDADES_CARIDADE} Component={OndeAtuamos} />
-            <Route path={ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR} Component={OndeAtuamos} />
-            <Route path={ROUTER_PATHS.ATIVIDADES_FORMACAO} Component={OndeAtuamos} />
-            <Route path={ROUTER_PATHS.ATIVIDADES_CONVIVENCIA} Component={OndeAtuamos} />
-            <Route path={ROUTER_PATHS.ATIVIDADES_INFANTIL} Component={OndeAtuamos} />
+            <Route path={ROUTER_PATHS.ATIVIDADES_CARIDADE} Component={ProjetoCaridade} />
+            <Route path={ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR} Component={Sociofamiliar} />
+            <Route path={ROUTER_PATHS.ATIVIDADES_FORMACAO} Component={FormacaoGeral} />
+            <Route path={ROUTER_PATHS.ATIVIDADES_CONVIVENCIA} Component={ServicoConvivencia} />
+            <Route path={ROUTER_PATHS.ATIVIDADES_INFANTIL} Component={EducacaoInfantil} />
             <Route path={ROUTER_PATHS.PARCEIROS} Component={Home} />
             <Route path={ROUTER_PATHS.DOACAO} Component={Home} />
             <Route path={ROUTER_PATHS.NOTICIAS} Component={Noticias} />

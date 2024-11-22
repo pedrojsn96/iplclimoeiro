@@ -72,7 +72,7 @@ const OndeAtuamos: React.FunctionComponent = () => {
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
                     <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
-                      Junte-se a nós na missão de transformar vidas. Saiba como contribuir com essa obra. 
+                      Junte-se a nós na missão de transformar vidas. Saiba como contribuir com essa obra. <br/>
                       Agradecemos seu contato e esperamos em breve compartilhar mais sobre nosso trabalho e como você pode fazer parte dele. Que sua experiência conosco seja repleta de paz e inspiração.
                       <br/>
                       ADD CTA P/ DOACAO
