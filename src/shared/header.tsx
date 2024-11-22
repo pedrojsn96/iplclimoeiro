@@ -29,10 +29,10 @@ const Header: React.FunctionComponent = () => {
             <ul className="grid grid-cols-1">
               <div className="space-y-4 p-4">
                 <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} className='font-rubikRegular hover:text-iplc'>Sobre nós</Navbar.Link></li>
-                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} className='font-rubikRegular hover:text-iplc'>Nossa história</Navbar.Link></li>
-                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} className='font-rubikRegular hover:text-iplc'>Linha do tempo</Navbar.Link></li>
-                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} className='font-rubikRegular hover:text-iplc'>Onde atuamos</Navbar.Link></li>
-                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS)} className='font-rubikRegular hover:text-iplc'>Modelo de gestão</Navbar.Link></li>
+                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS_HISTORIA)} className='font-rubikRegular hover:text-iplc'>Nossa história</Navbar.Link></li>
+                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS_TIMELINE)} className='font-rubikRegular hover:text-iplc'>Linha do tempo</Navbar.Link></li>
+                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS_ATUACAO)} className='font-rubikRegular hover:text-iplc'>Onde atuamos</Navbar.Link></li>
+                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.SOBRE_NOS_GESTAO)} className='font-rubikRegular hover:text-iplc'>Modelo de gestão</Navbar.Link></li>
               </div>
             </ul>
           </MegaMenu.Dropdown>

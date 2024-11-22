@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route}  from 'react-router-dom';
 import { Contato, Home, Noticias, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia } from '../pages';
 import ROUTER_PATHS from './constants';
 import { ProjetoCaridade, EducacaoInfantil, FormacaoGeral, ServicoConvivencia, Sociofamiliar } from '../pages/OndeAtuamos/internals';
+import { NossaHistoria, Timeline, OndeAtuamos as SobreOndeAtuamos, ModeloGestao } from '../pages/SobreNos/internals';
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -10,10 +11,10 @@ const Router: React.FunctionComponent = () => {
         <Routes>
             <Route index path={ROUTER_PATHS.HOME} Component={Home}/>
             <Route path={ROUTER_PATHS.SOBRE_NOS} Component={SobreNos} />
-            <Route path={ROUTER_PATHS.SOBRE_NOS_HISTORIA} Component={SobreNos} />
-            <Route path={ROUTER_PATHS.SOBRE_NOS_TIMELINE} Component={SobreNos} />
-            <Route path={ROUTER_PATHS.SOBRE_NOS_ATUACAO} Component={SobreNos} />
-            <Route path={ROUTER_PATHS.SOBRE_NOS_GESTAO} Component={SobreNos} />
+            <Route path={ROUTER_PATHS.SOBRE_NOS_HISTORIA} Component={NossaHistoria} />
+            <Route path={ROUTER_PATHS.SOBRE_NOS_TIMELINE} Component={Timeline} />
+            <Route path={ROUTER_PATHS.SOBRE_NOS_ATUACAO} Component={SobreOndeAtuamos} />
+            <Route path={ROUTER_PATHS.SOBRE_NOS_GESTAO} Component={ModeloGestao} />
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN} Component={PeLuisCecchin} />
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_TESTAMENTOS} Component={PeLuisCecchin} />
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_MEMORIAL} Component={PeLuisCecchin} />
