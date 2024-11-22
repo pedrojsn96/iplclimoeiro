@@ -4,6 +4,7 @@ import { Contato, Home, Noticias, OndeAtuamos, PeLuisCecchin, SobreNos, Transpar
 import ROUTER_PATHS from './constants';
 import { ProjetoCaridade, EducacaoInfantil, FormacaoGeral, ServicoConvivencia, Sociofamiliar } from '../pages/OndeAtuamos/internals';
 import { NossaHistoria, Timeline, OndeAtuamos as SobreOndeAtuamos, ModeloGestao } from '../pages/SobreNos/internals';
+import { Beatificacao, Centenario, Memorial, Testamentos } from '../pages/PeLuisCecchin/internals';
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -16,10 +17,10 @@ const Router: React.FunctionComponent = () => {
             <Route path={ROUTER_PATHS.SOBRE_NOS_ATUACAO} Component={SobreOndeAtuamos} />
             <Route path={ROUTER_PATHS.SOBRE_NOS_GESTAO} Component={ModeloGestao} />
             <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN} Component={PeLuisCecchin} />
-            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_TESTAMENTOS} Component={PeLuisCecchin} />
-            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_MEMORIAL} Component={PeLuisCecchin} />
-            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CAUSA} Component={PeLuisCecchin} />
-            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CENTENARIO} Component={PeLuisCecchin} />
+            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_TESTAMENTOS} Component={Testamentos} />
+            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_MEMORIAL} Component={Memorial} />
+            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CAUSA} Component={Beatificacao} />
+            <Route path={ROUTER_PATHS.PE_LUIS_CECCHIN_CENTENARIO} Component={Centenario} />
             <Route path={ROUTER_PATHS.ATIVIDADES} Component={OndeAtuamos} />
             <Route path={ROUTER_PATHS.ATIVIDADES_CARIDADE} Component={ProjetoCaridade} />
             <Route path={ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR} Component={Sociofamiliar} />

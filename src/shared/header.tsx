@@ -38,10 +38,10 @@ const Header: React.FunctionComponent = () => {
           </MegaMenu.Dropdown>
         </Navbar.Link>
         <Navbar.Link style={{ cursor: 'pointer' }} className="font-rubikRegular hover:text-iplc" active={pathname.includes(ROUTER_PATHS.PE_LUIS_CECCHIN)}>
-          <MegaMenu.Dropdown toggle={<>Servo de Deus Luis Cecchin</>}>
+          <MegaMenu.Dropdown toggle={<>Servo de Deus Luís Cecchin</>}>
             <ul className="grid grid-cols-1">
               <div className="space-y-4 p-4">
-                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN)} className='font-rubikRegular hover:text-iplc'>Servo de Deus Luis Cecchin</Navbar.Link></li>
+                <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN)} className='font-rubikRegular hover:text-iplc'>Servo de Deus Luís Cecchin</Navbar.Link></li>
                 <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN_TESTAMENTOS)} className='font-rubikRegular hover:text-iplc'>Testamentos</Navbar.Link></li>
                 <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN_MEMORIAL)} className='font-rubikRegular hover:text-iplc'>Memorial</Navbar.Link></li>
                 <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.PE_LUIS_CECCHIN_CAUSA)} className='font-rubikRegular hover:text-iplc'>Abertura da Causa de Beatificação</Navbar.Link></li>

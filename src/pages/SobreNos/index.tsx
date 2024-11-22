@@ -44,61 +44,61 @@ const SobreNos: React.FunctionComponent = () => {
                     </p>
                     <Accordion>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A VIDA</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A VIDA</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">A vida é o maior presente que recebemos de Deus. Cuidar, proteger e promover a vida é e sempre será nossa grande causa. Tudo o que existe e vive, por mais simples que seja uma planta, um animal, uma criança, um jovem, um idoso, o planeta, precisa ser cuidado porque tudo é expressão de vida.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A ESPIRITUALIDADE</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A ESPIRITUALIDADE</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Deus é nosso Pai/Mãe. Diante dessa verdade somos convidados a viver a confiança do abandono em Deus, deixando-nos envolver pelo seu cuidado amoroso. É pela espiritualidade que as questões fundamentais do existir humano encontram significado mais abrangente e profundo.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A HONESTIDADE</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A HONESTIDADE</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Sem a honestidade torna-se difícil caminhar e atingir nossos objetivos. O clima de confiança é decisivo para a vivência da transparência e da honestidade na busca da verdade.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>O RESPEITO</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>O RESPEITO</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Acolher e respeitar o (a) outro (a) como pessoa, sem discriminação de qualquer ordem, pois somos todos irmãos e irmãs, é o caminho para a comunhão e a fraternidade. </p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A FORMAÇÃO INTEGRAL</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A FORMAÇÃO INTEGRAL</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Não somos pessoas acabadas, prontas. Estamos num processo de construção humana, espiritual e profissional. O cultivo pessoal é indispensável para o crescimento integral do ser pessoa humana.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A SOLIDARIEDADE</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A SOLIDARIEDADE</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Num mundo que facilmente nos educa para a competição e busca do primeiro lugar, nós somos chamados a assumir a solidariedade através da partilha e da fraternidade. Ser solidário é ser humano.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>O PROFISSIONALISMO</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>O PROFISSIONALISMO</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Assumir o trabalho com criatividade e responsabilidade, sendo profissional na ação e na realização do nosso trabalho. O profissionalismo é uma ferramenta pedagógica fundamental para a formação pessoal dos nossos jovens.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A RESPONSABILIDADE</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A RESPONSABILIDADE</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">A participação corresponsável de todos é fundamental para o êxito na missão que nos é confiada. O pouco de muitos realiza o sonho de tantos.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>O ESPÍRITO DE FAMÍLIA</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>O ESPÍRITO DE FAMÍLIA</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">Primar por relações saudáveis e transparentes, onde o zelo pelo outro é o mesmo que tenho comigo.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel>
-                            <Accordion.Title className='font-rubikBold font-li text-gray-700'>A SIMPLICIDADE</Accordion.Title>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A SIMPLICIDADE</Accordion.Title>
                             <Accordion.Content>
                                 <p className="mb-2 font-rubikLight font-light text-justify">A simplicidade é escolher o que é essencial deliberadamente e conscientemente. É ter liberdade, mas também ter foco, não se distrair com influências externas, com a cultura do consumo. É eliminar o supérfluo para revelar nossos verdadeiros dons.</p>
                             </Accordion.Content>
