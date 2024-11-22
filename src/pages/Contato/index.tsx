@@ -11,10 +11,10 @@ const OndeAtuamos: React.FunctionComponent = () => {
         <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-8 lg:py-24 lg:px-6">
             <h1 className="font-rubikBold text-neutral-700 mb-4 text-4xl tracking-tight">Fale conosco</h1>
             {/* <!-- Row --> */}
-            <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+            <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Entre em contato</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                       Agradecemos seu interesse em se conectar conosco no Instituto Padre Luis Cecchin. Estamos aqui para ouvir suas dúvidas. <br/>
                       Por favor, utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
                       Estamos localizados no endereço Rua Professor Rivadávia Bernardes de Paula, 155, Bairro José Fernandes Salsa, na cidade de Limoeiro, Pernambuco.
@@ -22,12 +22,12 @@ const OndeAtuamos: React.FunctionComponent = () => {
                 </div>
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+            <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Redes sociais</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Mantenha-se atualizado sobre nossas atividades e eventos através de nossas redes sociais:
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Mantenha-se atualizado sobre nossas atividades e eventos através de nossas redes sociais:
                     </p>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                     <ul className="grid grid-cols-1">
                       <div>
                         <li className='font-rubikRegular flex gap-1 hover:text-iplc'>
@@ -61,17 +61,17 @@ const OndeAtuamos: React.FunctionComponent = () => {
                 </div>
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+            <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Localização</h2>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.113582144707!2d-35.45646392376444!3d-7.883183658112878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7abbc78d2aad075%3A0xf4cef35b84c86f2d!2sInstituto%20Padre%20Luis%20Cecchin%20-%20IPLC!5e0!3m2!1spt-BR!2sbr!4v1732279991248!5m2!1spt-BR!2sbr" width="800" height="450" style={{ border:0 }} allowFullScreen loading="lazy" referrerPolicy='no-referrer-when-downgrade'></iframe>
                 </div>
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+            <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
-                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                       Junte-se a nós na missão de transformar vidas. Saiba como contribuir com essa obra. <br/>
                       Agradecemos seu contato e esperamos em breve compartilhar mais sobre nosso trabalho e como você pode fazer parte dele. Que sua experiência conosco seja repleta de paz e inspiração.
                       <br/>
