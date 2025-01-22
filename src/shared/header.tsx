@@ -87,7 +87,8 @@ const Header: React.FunctionComponent = () => {
               </MegaMenu.Dropdown>
           </Navbar.Link>
           {/* <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.NOTICIAS)} className="font-rubikRegular" active={pathname === ROUTER_PATHS.NOTICIAS}>Notícias</Navbar.Link> */}
-          <Navbar.Link style={{ cursor: 'pointer' }} className="font-rubikRegular hover:text-iplc" active={pathname.includes(ROUTER_PATHS.TRANSPARENCIA)}>
+          <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.TRANSPARENCIA)} className="font-rubikRegular hover:text-iplc" active={pathname === ROUTER_PATHS.TRANSPARENCIA}>Transparência</Navbar.Link>
+          {/* <Navbar.Link style={{ cursor: 'pointer' }} className="font-rubikRegular hover:text-iplc" active={pathname.includes(ROUTER_PATHS.TRANSPARENCIA)}>
             <MegaMenu.Dropdown toggle={<>Transparência</>}>
                 <ul className="grid grid-cols-1">
                   <div className="space-y-4 p-4">
@@ -98,7 +99,7 @@ const Header: React.FunctionComponent = () => {
                   </div>
                 </ul>
               </MegaMenu.Dropdown>
-          </Navbar.Link>
+          </Navbar.Link> */}
           <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.CONTATO)} className="font-rubikRegular hover:text-iplc" active={pathname === ROUTER_PATHS.CONTATO}>Contato</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
