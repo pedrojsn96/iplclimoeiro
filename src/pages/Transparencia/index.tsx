@@ -18,13 +18,13 @@ const Transparencia: React.FunctionComponent = () => {
                     <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Relatório social das atividades desenvolvidas pelo Instituto Padre Luis Cecchin. <br/>Como forma de clareza e transparência de tudo aquilo que desenvolvemos em nossa atividade.</p>
                 </div>
             </div>
-              {/* <!-- Row --> */}
+              {/* <!-- Row -->
               <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
                   <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Parcerias</h2>
                   <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Relatório social das atividades desenvolvidas pelo Instituto Padre Luis Cecchin. <br/>Como forma de clareza e transparência de tudo aquilo que desenvolvemos em nossa atividade.</p>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- Row --> */}
               <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
@@ -33,7 +33,7 @@ const Transparencia: React.FunctionComponent = () => {
                       {/* fazer uma flat list */}
                       <Table striped>
                         <Table.Head>
-                          <Table.HeadCell className='font-rubikBold'>Relatórios</Table.HeadCell>
+                          <Table.HeadCell className='font-rubikBold'>Documentos</Table.HeadCell>
                           <Table.HeadCell className='font-rubikBold'>Ano</Table.HeadCell>
                           <Table.HeadCell>
                             <span className="sr-only">Baixar</span>
@@ -42,91 +42,65 @@ const Transparencia: React.FunctionComponent = () => {
                         <Table.Body className="divide-y">
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2017
-                            </Table.Cell>
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2017
-                            </Table.Cell>
-                            <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
-                                Baixar
-                              </a>
-                            </Table.Cell>
-                          </Table.Row>
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2018
+                              Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               2018
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1XuuHetXP3t69GFaIwjV25MUgEdvOW1eB/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2019
-                            </Table.Cell>
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2019
-                            </Table.Cell>
-                            <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
-                                Baixar
-                              </a>
-                            </Table.Cell>
-                          </Table.Row>
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2020
+                              Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               2020
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1Z7WNIWs1DM_OMDtkPAjsIAfrKU4poNwc/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2021
+                              Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               2021
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1ADcwhMNW9y-JZbCinDFra1DVC10XoQt6/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2022
+                              Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               2022
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1XZsOxsIMF6z6nS8KngK8XJynHUszbJXi/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social - 2023
+                              Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               2023
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="#" className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1P7afVgUWVR6aBbetwfw4kp7To_juSO7g/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
@@ -134,6 +108,33 @@ const Transparencia: React.FunctionComponent = () => {
                         </Table.Body>
                       </Table>
                   </div>
+              </div>
+              {/* <!-- Row --> */}
+              <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+                <div className="text-gray-500 sm:text-lg">
+                  <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Lei Geral de Proteção de Dados</h2>
+                  <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">O INSTITUTO PADRE LUIS CECCHIN – IPLC atua em conformidade com a Lei Geral de Proteção de Dados (LGPD), Lei 13.709 de 14 de agosto de 2018.</p>
+                  <Table striped>
+                        <Table.Head>
+                          <Table.HeadCell className='font-rubikBold'>Documentos</Table.HeadCell>
+                          <Table.HeadCell>
+                            <span className="sr-only">Baixar</span>
+                          </Table.HeadCell>
+                        </Table.Head>
+                        <Table.Body className="divide-y">
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              Declaração de adoção a LGPD
+                            </Table.Cell>
+                            <Table.Cell>
+                              <a href="https://drive.google.com/file/d/1vHlD-vyi0RtVowOx7tgrPqBGXndx6dWi/view?usp=sharing" className="font-rubikRegular font-medium text-cyan-600 hover:underline" target='_blank'>
+                                Baixar
+                              </a>
+                            </Table.Cell>
+                          </Table.Row>
+                        </Table.Body>
+                      </Table>
+                </div>
               </div>
           </div>
       </section>
