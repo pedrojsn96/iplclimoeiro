@@ -21,7 +21,7 @@ const Footer: React.FunctionComponent = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 items-center">
-            <FlowbiteFooter.Copyright href="" by="IPLC. Todos os direitos reservados." year={2024} className="font-rubikMedium" />
+            <FlowbiteFooter.Copyright href="" by="IPLC. Todos os direitos reservados." year={2025} className="font-rubikMedium" />
             <div className="mt-4 flex space-x-2 sm:mt-1 justify-center">
                 <FlowbiteFooter.Icon href="https://www.facebook.com/IPLCLimoeiro.pe" target='_blank' icon={BsFacebook} />
                 <FlowbiteFooter.Icon href="https://www.instagram.com/iplclimoeiro/" target='_blank' icon={BsInstagram} />

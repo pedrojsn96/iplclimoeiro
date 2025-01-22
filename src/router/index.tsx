@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route}  from 'react-router-dom';
-import { Contato, Home, Noticias, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia } from '../pages';
+import { Contato, Home, Noticias, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia, Parceiros } from '../pages';
 import ROUTER_PATHS from './constants';
 import { ProjetoCaridade, EducacaoInfantil, FormacaoGeral, ServicoConvivencia, Sociofamiliar } from '../pages/OndeAtuamos/internals';
 import { NossaHistoria, Timeline, OndeAtuamos as SobreOndeAtuamos, ModeloGestao } from '../pages/SobreNos/internals';
@@ -27,7 +27,7 @@ const Router: React.FunctionComponent = () => {
             <Route path={ROUTER_PATHS.ATIVIDADES_FORMACAO} Component={FormacaoGeral} />
             <Route path={ROUTER_PATHS.ATIVIDADES_CONVIVENCIA} Component={ServicoConvivencia} />
             <Route path={ROUTER_PATHS.ATIVIDADES_INFANTIL} Component={EducacaoInfantil} />
-            <Route path={ROUTER_PATHS.PARCEIROS} Component={Home} />
+            <Route path={ROUTER_PATHS.PARCEIROS} Component={Parceiros} />
             <Route path={ROUTER_PATHS.DOACAO} Component={Home} />
             <Route path={ROUTER_PATHS.NOTICIAS} Component={Noticias} />
             <Route path={ROUTER_PATHS.TRANSPARENCIA} Component={Transparencia} />
