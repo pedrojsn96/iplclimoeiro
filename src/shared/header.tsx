@@ -7,7 +7,6 @@ import ROUTER_PATHS from '../router/constants';
 const Header: React.FunctionComponent = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  // ajustar e colocar menu com dropdown
 
   return (
     <Navbar className="grid max-w-screen-xl px-4 pt-8 pb-8 mx-auto items-center">
