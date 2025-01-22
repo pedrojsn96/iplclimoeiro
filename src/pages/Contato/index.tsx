@@ -1,8 +1,12 @@
 
 import React from 'react';
 import { Footer, Header } from '../../shared';
+import { Button } from 'flowbite-react';
+import { useNavigate } from 'react-router-dom';
+import ROUTER_PATHS from '../../router/constants';
 
 const OndeAtuamos: React.FunctionComponent = () => {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -13,12 +17,18 @@ const OndeAtuamos: React.FunctionComponent = () => {
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
-                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Entre em contato</h2>
+                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                       Agradecemos seu interesse em se conectar conosco no Instituto Padre Luis Cecchin. Estamos aqui para ouvir suas dúvidas. <br/>
-                      Por favor, utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
+                      <b className='text-gray-800'>Junte-se a nós na missão de transformar vidas de crianças, adolescentes e famílias.</b><br/>
+                      Utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
                       Estamos localizados no endereço Rua Professor Rivadávia Bernardes de Paula, 155, Bairro José Fernandes Salsa, na cidade de Limoeiro, Pernambuco.
                     </p>
+                    <div className="flex justify-center">
+                      <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
+                          <span className="font-rubikLight text-white">Seja um benfeitor</span>
+                      </Button>
+                  </div>
                 </div>
             </div>
             {/* <!-- Row --> */}
@@ -67,18 +77,20 @@ const OndeAtuamos: React.FunctionComponent = () => {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.113582144707!2d-35.45646392376444!3d-7.883183658112878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7abbc78d2aad075%3A0xf4cef35b84c86f2d!2sInstituto%20Padre%20Luis%20Cecchin%20-%20IPLC!5e0!3m2!1spt-BR!2sbr!4v1732279991248!5m2!1spt-BR!2sbr" width="800" height="450" style={{ border:0 }} allowFullScreen loading="lazy" referrerPolicy='no-referrer-when-downgrade'></iframe>
                 </div>
             </div>
-            {/* <!-- Row --> */}
+            {/* <!-- Row -->
             <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                      Junte-se a nós na missão de transformar vidas. Saiba como contribuir com essa obra. <br/>
-                      Agradecemos seu contato e esperamos em breve compartilhar mais sobre nosso trabalho e como você pode fazer parte dele. Que sua experiência conosco seja repleta de paz e inspiração.
-                      <br/>
-                      ADD CTA P/ DOACAO
+                      Junte-se a nós na missão de transformar vidas de crianças, adolescentes e famílias. Saiba como contribuir com essa obra. <br/>
                     </p>
-                </div>
-            </div>
+                    <div className="flex justify-center">
+                    <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
+                        <span className="font-rubikLight text-white">Seja um benfeitor</span>
+                    </Button>
+                  </div>
+              </div>
+            </div> */}
           </div>
       </section>
       <Footer />
