@@ -32,8 +32,6 @@ const Router: React.FunctionComponent = () => {
             <Route path={ROUTER_PATHS.NOTICIAS} Component={Noticias} />
             <Route path={ROUTER_PATHS.TRANSPARENCIA} Component={Transparencia} />
             <Route path={ROUTER_PATHS.CONTATO} Component={Contato} />
-            {/* add tela de noticias */}
-            {/* criar uma pagina de doação */}
             <Route path='*' Component={Home} />
         </Routes>
       </BrowserRouter>

@@ -85,7 +85,7 @@ const Header: React.FunctionComponent = () => {
             </ul>
           </MegaMenu.Dropdown>
       </Navbar.Link> */}
-      {/* <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.NOTICIAS)} className="font-rubikRegular" active={pathname === ROUTER_PATHS.NOTICIAS}>Notícias</Navbar.Link> */}
+      <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.NOTICIAS)} className="font-rubikRegular" active={pathname === ROUTER_PATHS.NOTICIAS}>Notícias</Navbar.Link>
       <Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.TRANSPARENCIA)} className="font-rubikRegular hover:text-iplc" active={pathname === ROUTER_PATHS.TRANSPARENCIA}>Transparência</Navbar.Link>
       {/* <Navbar.Link style={{ cursor: 'pointer' }} className="font-rubikRegular hover:text-iplc" active={pathname.includes(ROUTER_PATHS.TRANSPARENCIA)}>
         <MegaMenu.Dropdown toggle={<>Transparência</>}>
