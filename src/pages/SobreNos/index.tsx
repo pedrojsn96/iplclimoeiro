@@ -2,6 +2,9 @@
 import React from 'react';
 import { Footer, Header } from '../../shared';
 import AboutImage from "../../images/iplc-about.png";
+import MissaoImage from "../../images/missao-iplc.png";
+import VisaoImage from "../../images/visao-iplc.png";
+import ValoresImage from "../../images/valores-iplc.png";
 import { Accordion } from 'flowbite-react';
 
 const SobreNos: React.FunctionComponent = () => {
@@ -21,27 +24,37 @@ const SobreNos: React.FunctionComponent = () => {
                 <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={AboutImage} alt="dashboard feature image" />
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-1 lg:grid lg:grid-cols-1">
+            <div className="gap-1 lg:grid lg:grid-cols-2 xl:gap-16">
+                <div className="flex justify-center">
+                    <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-86" src={MissaoImage} alt="missao imagem" />
+                </div>
                 <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Missão</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Promover crianças, adolescentes, jovens, adultos e famílias em situação de vulnerabilidade social, oferecendo-lhes assistência, formação humana/cristã, educação e profissionalização, tendo em vista uma consciência crítica da realidade e do valor de sua pessoa, buscando interferir nas estruturas sociais para o exercício da cidadania.</p>
+                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Promover crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa, buscando interferir nas estruturas sociais para o exercício da cidadania.</p>
                 </div>
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-1 lg:grid lg:grid-cols-1">
+            <div className="gap-1 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Visão</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Ser um agente de transformação a fim de integrar crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social apostando como sujeitos da nova sociedade, economicamente desfavorecidas, apostando como sujeitos da nova sociedade.
-                    </p>
+                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Ser um agente de transformação a fim de integrar crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social apostando como sujeitos da nova sociedade, economicamente desfavorecidas, apostando como sujeitos da nova sociedade.</p>
+                </div>
+                <div className="flex justify-center">
+                    <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={VisaoImage} alt="visao imagem" />
                 </div>
             </div>
             {/* <!-- Row --> */}
-            <div className="gap-1 lg:grid lg:grid-cols-1">
+            <div className="gap-1 lg:grid lg:grid-cols-2 xl:gap-16">
+                <div className="flex justify-center">
+                    <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={ValoresImage} alt="valores imagem" />
+                </div>
                 <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Valores</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                    O ser humano é a nossa preocupação fundamental onde toda nossa ação deve estar pautada na busca da sua realização plena e em todos os sentidos. Sendo eles:
-                    </p>
+                    <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">O ser humano é a nossa preocupação fundamental onde toda nossa ação deve estar pautada na busca da sua realização plena e em todos os sentidos.</p>
+                </div>
+            </div>
+            <div className="gap-1 lg:grid lg:grid-cols-1 p-8">
+                <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                     <Accordion>
                         <Accordion.Panel>
                             <Accordion.Title className='font-rubikBold font-light text-gray-700'>A VIDA</Accordion.Title>
@@ -106,7 +119,6 @@ const SobreNos: React.FunctionComponent = () => {
                     </Accordion>
                 </div>
             </div>
-            
         </div>
       </section>
       <Footer />

@@ -1,9 +1,9 @@
 import React from 'react';
 
 import AboutImage from "../../../images/iplc-about.png";
-import MissaoImage from "../../../images/iplc-missao.png";
-import VisaoImage from "../../../images/iplc-visao.png";
-import ValoresImage from "../../../images/iplc-valores.png";
+import MissaoImage from "../../../images/missao-iplc.png";
+import VisaoImage from "../../../images/visao-iplc.png";
+import ValoresImage from "../../../images/valores-iplc.png";
 
 const AboutUs: React.FunctionComponent = () => {
     return (
@@ -21,7 +21,7 @@ const AboutUs: React.FunctionComponent = () => {
                     {/* <!-- Row --> */}
                     <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-72 max-w-72" src={MissaoImage} alt="feature image 2" />
+                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={MissaoImage} alt="feature image 2" />
                         </div>
                         <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                             <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Missão</h2>
@@ -35,13 +35,13 @@ const AboutUs: React.FunctionComponent = () => {
                             <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Ser um agente de transformação a fim de integrar crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social apostando como sujeitos da nova sociedade, economicamente desfavorecidas, apostando como sujeitos da nova sociedade.</p>
                         </div>
                         <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-72 max-w-72" src={VisaoImage} alt="dashboard feature image" />
+                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={VisaoImage} alt="dashboard feature image" />
                         </div>
                     </div>
                     {/* <!-- Row --> */}
                     <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-72 max-w-72" src={ValoresImage} alt="feature image 2" />
+                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={ValoresImage} alt="feature image 2" />
                         </div>
                         <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                             <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Valores</h2>

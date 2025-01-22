@@ -29,7 +29,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1969</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Chegada do Fundador</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -39,7 +39,17 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1970</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Fundação do IPLC</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                          Com o apoio das Irmãs Franciscanas de Maristela, fundo o Centro de Formação de Menores em 1970.
+                          Com o apoio das Irmãs Franciscanas de Maristela, fundou o Centro de Formação de Menores, acolhendo inicialmente 50 crianças.
+                          </TimelineComponent.Body>
+                        </TimelineComponent.Content>
+                      </TimelineComponent.Item>
+                      <TimelineComponent.Item>
+                        <TimelineComponent.Point />
+                        <TimelineComponent.Content>
+                          <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1973</TimelineComponent.Time>
+                          <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início da atividade com famílias agricultoras </TimelineComponent.Title>
+                          <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
+                          Com as consequências do êxodo rural, as famílias que viviam no campo ficaram sem opção de trabalho, surge daí o acompanhamento que ofereceu um hectare de terra, suporte e orientação para que as famílias pudessem se organizar e trabalhar de forma sustentável, cultivando alimentos que garantissem sua sobrevivência.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -49,7 +59,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1974</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Inauguração do Prédio da Sede</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Com o apoio da comunidade e benfeitores, no dia 16 de novembro de 1970 foi inaugurado o prédio da sede do Centro de Formação de Menores.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -59,7 +69,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1980</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Lares Substitutos</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Com o objetivo de reduzir o número de crianças das ruas, os lares substitutos oferecia uma dinâmica de acolhimento para crianças e adolescentes órfãos e que tinham fragilidades em seus contextos familiares.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -69,7 +79,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1980</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início das atividades na Creche Menino Jesus</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                            Para acolher crianças na primeira infância com atendimento integral possibilitando o desenvolvimento saudável dos filhos enquanto suas mães buscavam trabalho para contribuir com o sustento da família.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -77,9 +87,9 @@ const Timeline: React.FunctionComponent = () => {
                         <TimelineComponent.Point />
                         <TimelineComponent.Content>
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1981</TimelineComponent.Time>
-                          <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Cursos</TimelineComponent.Title>
+                          <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Cursos Profissionalizantes</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Com o objetivo de oportunizar aos jovens uma opção de ocupação e aprendizado para o ingresso no mercado de trabalho, iniciou a oferta de cursos gratuitos
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -89,7 +99,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1981</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Moradia Social</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Oferecia uma moradia com um baixo custo para que as famílias, mulheres, viúvas em situação de vulnerabilidade tivessem a dignidade de um lar.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -99,7 +109,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1997</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Mudança de Prédio da Creche</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          A Creche Menino Jesus ganha novo espaço para desenvolver as atividades e contemplar as famílias de um setor próximo a periferia da cidade, aumentando a capacidade de atendimentos.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -109,7 +119,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1997</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Lavanderia Pública</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Para oportunizar uma renda para mulheres provedoras dos lares, em sua maioria, sozinhas, a lavanderia foi construída anexa ao prédio da Creche para que as mulheres lavassem roupas e colaborassem com a renda da família.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -119,7 +129,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>2010</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Falecimento do Fundador</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Acometido por uma grave doença, o Pe. Luís Cecchin faleceu aos 26 de março de 2010 na Itália, sua terra natal.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -129,7 +139,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>2011</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Congregação assume a administração</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                          Ao findar de sua vida, o Pe. Luís tendo dedicado à missão entre os mais pobres, confiou a administração da entidade à Congregação dos Pobres Servos da Divina Providência, assumindo em 2011, passando a ser reconhecido como Instituto Padre Luís Cecchin – IPLC, em homenagem a seu fundador.
+                          As atividades passaram a ser administradas pela Congregação dos Pobres Servos da Divina Providência (PSDP), a pedido do Pe. Luís Cecchin enquanto vida. Em 2011 com a mudança, o Centro de Formação de Menores passa a ser reconhecido como Instituto Padre Luis Cecchin – IPLC, em homenagem a seu fundador.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -137,9 +147,9 @@ const Timeline: React.FunctionComponent = () => {
                         <TimelineComponent.Point />
                         <TimelineComponent.Content>
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>2021</TimelineComponent.Time>
-                          <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início das atividades do Projeto Caridade</TimelineComponent.Title>
+                          <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início das atividades do Serviço de Convivência e Fortalecimento de Vínculos para jovens e adultos</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Foi inaugurado como Projeto Caridade, atualmente é um serviço tipificado que acolhe jovens, adultos e famílias promovendo ações para o fortalecimento das políticas públicas, formações, segurança alimentar, acompanhamento familiar, entre outros.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -149,7 +159,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>2021</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início das atividades na Creche Sagrada Família</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          Inaugurou-se mais uma atividade em parceria com o poder Público Municipal, numa área afastada do centro da cidade para acolhimento de crianças com faixa etária dos 06 meses aos 4 anos e 11 meses.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
@@ -159,7 +169,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>2023</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Início das atividades do SCFV dos Idosos</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                            Após sua ordenação sacerdotal, o Pe. Luís chegou no Brasil em 26 de maio de 1969, na cidade de Limoeiro, Pernambuco
+                          A partir da experiência de um projeto piloto, o IPLC passou a desenvolver o Serviço de Convivência e Fortalecimento de Vínculos para idosos compreendendo a faixa etária acima os 60 anos. 
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
