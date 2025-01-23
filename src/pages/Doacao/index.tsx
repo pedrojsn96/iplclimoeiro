@@ -15,19 +15,8 @@ const Doacao: React.FunctionComponent = () => {
                 {/* <!-- Row --> */}
                 <div className="gap-1 lg:grid lg:grid-cols-1">
                     <div className="text-gray-500 sm:text-lg">
-                        <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
-                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Ser um benfeitor do Instituto Padre Luis Ceccin é unir-se a nós na missão de promover a crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa e apoiar as diversas atividades que realizamos.</p>
-                        <div className="flex justify-center">
-                        <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
-                            <span className="font-rubikLight text-white">Quero ser um benfeitor</span>
-                        </Button>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- Row --> */}
-                <div className="gap-1 lg:grid lg:grid-cols-1">
-                    <div className="text-gray-500 sm:text-lg">
                         <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Como ser um benfeitor?</h2>
+                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Ser um benfeitor do Instituto Padre Luis Ceccin é unir-se a nós na missão de promover a crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa e apoiar as diversas atividades que realizamos.</p>
                         <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                             Existem várias formas de contribuir e fazer a diferença na vida daqueles que mais precisam:
                             <ol className="ps-0 mt-2 space-y-1 list-decimal list-inside">
@@ -60,6 +49,12 @@ const Doacao: React.FunctionComponent = () => {
                             <div className="text-gray-500 flex justify-center">
                                 <img className="w-full rounded-lg lg:flex sm:w-56 lg:w-56" src={PIXImage} alt="qr code pix" />
                             </div>
+                        </div>
+
+                        <div className="flex justify-center">
+                            <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
+                                <span className="font-rubikLight text-white">Quero ser um benfeitor</span>
+                            </Button>
                         </div>
                     </div>
                 </div>
