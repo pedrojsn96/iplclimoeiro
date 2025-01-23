@@ -6,5 +6,6 @@ import SobreNos from "./SobreNos";
 import Transparencia from "./Transparencia";
 import Noticias from "./Noticias";
 import Parceiros from "./Parceiros";
+import Doacao from "./Doacao";
 
-export { Home, Contato, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia, Noticias, Parceiros };
+export { Home, Contato, OndeAtuamos, PeLuisCecchin, SobreNos, Transparencia, Noticias, Parceiros, Doacao };

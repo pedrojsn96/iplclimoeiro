@@ -16,20 +16,19 @@ const OndeAtuamos: React.FunctionComponent = () => {
             <h1 className="font-rubikBold text-neutral-700 mb-4 text-4xl tracking-tight">Fale conosco</h1>
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-1">
-                <div className="text-gray-500 sm:text-lg">
-                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                      Agradecemos seu interesse em se conectar conosco no Instituto Padre Luis Cecchin. Estamos aqui para ouvir suas dúvidas. <br/>
-                      <b className='text-gray-800'>Junte-se a nós na missão de transformar vidas de crianças, adolescentes e famílias.</b><br/>
-                      Utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
-                      Estamos localizados no endereço Rua Professor Rivadávia Bernardes de Paula, 155, Bairro José Fernandes Salsa, na cidade de Limoeiro, Pernambuco.
-                    </p>
-                    <div className="flex justify-center">
-                      <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
-                          <span className="font-rubikLight text-white">Seja um benfeitor</span>
-                      </Button>
-                  </div>
+              <div className="text-gray-500 sm:text-lg">
+                <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
+                <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
+                  <b className='text-gray-800'>Junte-se a nós na missão de transformar vidas de crianças, adolescentes e famílias.</b><br/>
+                  Utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
+                  Estamos localizados no endereço Rua Professor Rivadávia Bernardes de Paula, 155, Bairro José Fernandes Salsa, na cidade de Limoeiro, Pernambuco.
+                </p>
+                <div className="flex justify-center">
+                  <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
+                      <span className="font-rubikLight text-white">Seja um benfeitor</span>
+                  </Button>
                 </div>
+              </div>
             </div>
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-1">
