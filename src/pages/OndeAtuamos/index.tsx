@@ -55,11 +55,11 @@ Promovendo oficinas de: Formação humano/Cristã, Inclusão Digital, Educação
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
-                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Cantinho Caridade - Serviço de Convivência e Fortalecimento de Vínculos para jovens e adultos</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Tem relevância pública e social com ações que visam o fortalecimento de vínculos familiares e comunitários que complementam o trabalho de Proteção Social com adultos, idosos e famílias, integrando e desenvolvendo projetos gratuitos nas áreas da assistência social, fortalecimento da educação, meio ambiente, cultura, lazer e artes. Além de estimular o voluntariado.</p>
+                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Promoção da Autonomia: Atividade Sociofamiliar</h2>
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Favorece sustentabilidade através da geração de renda, por meio do acompanhamento às famílias agricultoras, oferecendo terra pronta para o plantio de legumes, verduras e hortaliças, no qual as famílias realizam um trabalho de forma programada, continuada e gratuita, com a finalidade de garantir formação humana, social cristã e política para sua subsistência.</p>
                 </div>
                 <div className="flex justify-center">
-                    <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_CARIDADE)}>
+                    <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR)}>
                         <span className="font-rubikLight text-white">Saiba mais</span>
                     </Button>
                 </div>
@@ -67,11 +67,11 @@ Promovendo oficinas de: Formação humano/Cristã, Inclusão Digital, Educação
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-1">
                 <div className="text-gray-500 sm:text-lg">
-                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Atividade Sociofamiliar</h2>
-                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Favorece sustentabilidade através da geração de renda, por meio do acompanhamento às famílias agricultoras, oferecendo terra pronta para o plantio de legumes, verduras e hortaliças, no qual as famílias realizam um trabalho de forma programada, continuada e gratuita, com a finalidade de garantir formação humana, social cristã e política para sua subsistência.</p>
+                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Cantinho Caridade - Serviço de Convivência e Fortalecimento de Vínculos para jovens e adultos</h2>
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Tem relevância pública e social com ações que visam o fortalecimento de vínculos familiares e comunitários que complementam o trabalho de Proteção Social com adultos, idosos e famílias, integrando e desenvolvendo projetos gratuitos nas áreas da assistência social, fortalecimento da educação, meio ambiente, cultura, lazer e artes. Além de estimular o voluntariado.</p>
                 </div>
                 <div className="flex justify-center">
-                    <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR)}>
+                    <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_CARIDADE)}>
                         <span className="font-rubikLight text-white">Saiba mais</span>
                     </Button>
                 </div>
