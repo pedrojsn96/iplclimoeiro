@@ -16,19 +16,21 @@ const Doacao: React.FunctionComponent = () => {
                 <div className="gap-1 lg:grid lg:grid-cols-1">
                     <div className="text-gray-500 sm:text-lg">
                         <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Como ser um benfeitor?</h2>
-                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Ser um benfeitor do Instituto Padre Luis Ceccin é unir-se a nós na missão de promover a crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa e apoiar as diversas atividades que realizamos.</p>
+                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">O benfeitor do Instituto padre Luis Cecchin é um agente de transformação que confia e apoia as ações desenvolvidas favorecendo caminhos de oportunidades para um novo amanhã como sempre quis o tão querido fundador, o Pe. Luís Cecchin.</p>
                         <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                            Existem várias formas de contribuir e fazer a diferença na vida daqueles que mais precisam:
+                        Para ser um benfeitor é simples, existem alguns caminhos para você colaborar com a promoção de crianças, adolescentes, jovens, adultos, idosos e famílias em situação de vulnerabilidade social.
+                        Para ajudar a manter, ampliar e qualificar essas ações, você pode:
                             <ol className="ps-0 mt-2 space-y-1 list-decimal list-inside">
                                 <li className='font-rubikLight'>
-                                    Contribuição Presencial
+                                    Realizar Contribuições Presenciais
                                     <ul className="font-rubikLight ps-4 list-disc list-inside">
                                         <li className='font-rubikLight text-base'>Voluntariado;</li>
+                                        <li className='font-rubikLight text-base'>Apadrinhamento afetivo;</li>
                                         <li className='font-rubikLight text-base'>Doação de Alimentos;</li>
                                     </ul>
                                 </li>
                                 <li className='font-rubikLight'>
-                                    Doações Financeiras
+                                    Realizar Doações Financeiras
                                     <ul className="font-rubikLight ps-4 list-disc list-inside">
                                         <li className='font-rubikLight text-base'><b className='font-rubikRegular'>Depósito e/ou Transferência Bancária:</b> Utilize nossas contas bancárias para realizar sua doação;</li>
                                         <li className='font-rubikLight text-base'><b className='font-rubikRegular'>Chave PIX:</b> Utilize nosso PIX para realizar sua doação;</li>
@@ -55,18 +57,6 @@ const Doacao: React.FunctionComponent = () => {
                             <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
                                 <span className="font-rubikLight text-white">Quero ser um benfeitor</span>
                             </Button>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- Row --> */}
-                <div className="gap-1 lg:grid lg:grid-cols-1">
-                    <div className="text-gray-500 sm:text-lg">
-                        <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um Parceiro</h2>
-                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">TODO: Ser um benfeitor do Instituto Padre Luis Ceccin é unir-se a nós na missão de promover a crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa e apoiar as diversas atividades que realizamos.</p>
-                        <div className="flex justify-center">
-                        <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
-                            <span className="font-rubikLight text-white">Quero ser um Parceiro</span>
-                        </Button>
                         </div>
                     </div>
                 </div>
