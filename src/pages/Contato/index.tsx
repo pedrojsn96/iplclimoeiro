@@ -19,9 +19,8 @@ const OndeAtuamos: React.FunctionComponent = () => {
               <div className="text-gray-500 sm:text-lg">
                 <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um benfeitor</h2>
                 <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                  <b className='text-gray-800'>Junte-se a nós na missão de transformar vidas de crianças, adolescentes e famílias.</b><br/>
-                  Utilize as informações abaixo para entrar em contato conosco ou visite-nos pessoalmente.<br/>
-                  Estamos localizados no endereço Rua Professor Rivadávia Bernardes de Paula, 155, Bairro José Fernandes Salsa, na cidade de Limoeiro, Pernambuco.
+                  <b className='text-gray-800'>Junte-se a nós na missão construir caminhos de oportunidade para um novo amanhã!</b><br/>
+                  O benfeitor do Instituto padre Luis Cecchin é um agente de transformação que confia e apoia as ações desenvolvidas favorecendo caminhos de oportunidades para um novo amanhã como sempre quis o tão querido fundador, o Pe. Luís Cecchin.
                 </p>
                 <div className="flex justify-center">
                   <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
