@@ -21,11 +21,6 @@ const Parceiros: React.FunctionComponent = () => {
                     <div className="text-gray-500 sm:text-lg">
                         <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Seja um Parceiro</h2>
                         <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Uma empresa pode ser uma grande benfeitora através da <b className='text-gray-800'>PARCERIA</b> que fortalece as atividades desenvolvidas.</p>
-                        <div className="flex justify-center">
-                            <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
-                                <span className="font-rubikLight text-white">Quero ser um Parceiro</span>
-                            </Button>
-                        </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
                             <Card className="max-w-xs" imgAlt="AVATeM" imgSrc={AVATeM}>
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">AVATeM</h5>
@@ -47,6 +42,11 @@ const Parceiros: React.FunctionComponent = () => {
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Medigral Farmácia de Manipulação</h5>
                                 <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, a Medigral Farmácia de Manipulação apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
                             </Card>
+                        </div>
+                        <div className="flex justify-center">
+                            <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
+                                <span className="font-rubikLight text-white">Quero ser um Parceiro</span>
+                            </Button>
                         </div>
                     </div>
                 </div>
