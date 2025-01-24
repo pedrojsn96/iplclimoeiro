@@ -9,7 +9,7 @@ import { Beatificacao, Centenario, Memorial, Testamentos } from '../pages/PeLuis
 const Router: React.FunctionComponent = () => {
   return (
       // ajustar o basename quando for publicar na VPS
-      <BrowserRouter basename='/my-vite-app'> 
+      <BrowserRouter basename='/iplclimoeiro'> 
         <Routes>
             <Route index path={ROUTER_PATHS.HOME} Component={Home}/>
             <Route path={ROUTER_PATHS.SOBRE_NOS} Component={SobreNos} />
