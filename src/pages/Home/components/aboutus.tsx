@@ -1,11 +1,16 @@
 import React from 'react';
 
+import { useNavigate } from 'react-router-dom';
+import { Button } from 'flowbite-react';
+import ROUTER_PATHS from '../../../router/constants';
+
 import AboutImage from "../../../images/iplc-about.png";
 import MissaoImage from "../../../images/missao-iplc.png";
 import VisaoImage from "../../../images/visao-iplc.png";
 import ValoresImage from "../../../images/valores-iplc.png";
 
 const AboutUs: React.FunctionComponent = () => {
+    const navigate = useNavigate();
     return (
         <React.Fragment>
             <section className="bg-gray-50">
@@ -14,39 +19,36 @@ const AboutUs: React.FunctionComponent = () => {
                     <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16 items-center">
                         <div className="text-gray-500 sm:text-lg">
                             <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Quem Somos</h2>
-                            <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">O Instituto Padre Luis Cecchin é uma instituição filantrópica de natureza civil e caráter beneficente, que atua desde 1970 prestando assistência a crianças, adolescentes, jovens de suas famílias em situação de risco e vulnerabilidade social. Oferecendo assistência, formação humana e cristã, educação e profissionalização, buscando interferir nas estruturas sociais para o exercício da cidadania, podendo ser um agente de transformação a fim de integrar e apostar como sujeitos da nova sociedade, pautados na dimensão dos valores da vida, ética, espiritualidade, respeito, qualidade, honestidade, espírito de família, formação integral, profissionalismo, responsabilidade, simplicidade e solidariedade.</p>
+                            <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">O Instituto Padre Luis Cecchin é uma instituição filantrópica de natureza civil e caráter beneficente, que atua desde 1970 prestando assistência a crianças, adolescentes, jovens, adultos, idosos e famílias do município de Limoeiro/PE que vivem em situação de exclusão, risco e vulnerabilidade social. Desenvolve atividades, projetos e programas através de ações de inclusão social fundamentado em dois pilares: educação para o protagonismo sustentável e fortalecimento da rede de proteção social, inspirados nas diretrizes do Estatuto da Criança e do Adolescente, com vistas à convivência familiar, respeitando a territorialidade conforme o Sistema Único de Assistência Social - SUAS.</p>
                         </div>
-                        <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={AboutImage} alt="dashboard feature image" />
+                        <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={AboutImage} alt="crianças atentidas pelo IPLC" />
                     </div>
                     {/* <!-- Row --> */}
-                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                        <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={MissaoImage} alt="feature image 2" />
-                        </div>
+                    <div className="gap-1 lg:grid lg:grid-cols-1">
                         <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Missão</h2>
-                            <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Promover crianças, adolescentes e famílias oferecendo-lhes assistência, formação humana e cristã, educação e profissionalização tendo em vista uma consciência crítica da realidade e do valor da pessoa, buscando interferir nas estruturas sociais para o exercício da cidadania.</p>
+                            <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight text-center">Nossos números</h2>
                         </div>
                     </div>
-                    {/* <!-- Row --> */}
-                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Visão</h2>
-                            <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">Ser um agente de transformação a fim de integrar crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social apostando como sujeitos da nova sociedade, economicamente desfavorecidas, apostando como sujeitos da nova sociedade.</p>
-                        </div>
-                        <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={VisaoImage} alt="dashboard feature image" />
-                        </div>
+                    <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-8 lg:px-6">
+                        <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3">
+                            <div className="flex flex-col items-center justify-center">
+                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">6</dt>
+                                <dd className="font-rubikLight text-gray-500">modalidades de atendimento</dd>
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">1 mil +</dt>
+                                <dd className="font-rubikLight text-gray-500">atendimentos diretos</dd>
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">500 +</dt>
+                                <dd className="font-rubikLight text-gray-500">atendimentos indiretos</dd>
+                            </div>
+                        </dl>
                     </div>
-                    {/* <!-- Row --> */}
-                    <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                        <div className="flex justify-center">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-96 max-w-96" src={ValoresImage} alt="feature image 2" />
-                        </div>
-                        <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                            <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Valores</h2>
-                            <p className="font-rubikLight mb-8 font-light lg:text-xl text-justify">O ser humano é a nossa preocupação fundamental onde toda nossa ação deve estar pautada na busca da sua realização plena e em todos os sentidos.</p>
-                        </div>
+                    <div className="flex justify-center">
+                        <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES)}>
+                            <span className="font-rubikLight text-white">Conheça nossas atividades</span>
+                        </Button>
                     </div>
                 </div>
             </section>

@@ -14,7 +14,7 @@ const PeLuisCecchin: React.FunctionComponent = () => {
             {/* <!-- Row --> */}
             <div className="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div className="flex justify-center">
-                    <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={PeLuisImage} alt="feature image 2" />
+                    <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={PeLuisImage} alt="imagem do Padre Luis Cecchin" />
                 </div>
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Padre Luís Cecchin</h2>

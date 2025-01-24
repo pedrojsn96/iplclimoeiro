@@ -5,6 +5,7 @@ import { Button, Card } from 'flowbite-react';
 import AVATeM from "../../images/parceiros/avatem-logo.png";
 import HiperAtacarejo from "../../images/parceiros/hiper-atacarejo.png";
 import HiperCordeiro from "../../images/parceiros/hiper-cordeiro.png";
+import HiperCordeiroMercado from "../../images/parceiros/hiper-cordeiro-mercado.png";
 import Medigral from "../../images/parceiros/medigral-logo.png";
 import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.png";
 
@@ -37,6 +38,10 @@ const Parceiros: React.FunctionComponent = () => {
                             <Card className="max-w-xs" imgAlt="Hiper Cordeiro Atacarejo" imgSrc={HiperAtacarejo}>
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Hiper Cordeiro - Atacarejo</h5>
                                 <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, o Hiper Cordeiro Atacarejo apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
+                            </Card>
+                            <Card className="max-w-xs" imgAlt="Hiper Cordeiro Mercado" imgSrc={HiperCordeiroMercado}>
+                                <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Hiper Cordeiro - Supermercado</h5>
+                                <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, o Hiper Cordeiro Supermercado apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
                             </Card>
                             <Card className="max-w-xs" imgAlt="Medigral" imgSrc={Medigral}>
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Medigral Farmácia de Manipulação</h5>

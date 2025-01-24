@@ -23,7 +23,7 @@ const OndeAtuamos: React.FunctionComponent = () => {
                   O benfeitor do Instituto padre Luis Cecchin é um agente de transformação que confia e apoia as ações desenvolvidas favorecendo caminhos de oportunidades para um novo amanhã como sempre quis o tão querido fundador, o Pe. Luís Cecchin.
                 </p>
                 <div className="flex justify-center">
-                  <Button color='primary' size="lg" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
+                  <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
                       <span className="font-rubikLight text-white">Seja um benfeitor</span>
                   </Button>
                 </div>

@@ -18,7 +18,7 @@ const OndeAtuamos: React.FunctionComponent = () => {
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">O Instituto Padre Luis Checcin atua no município de Limoeiro, situado na região do Agreste Setentrional, em Pernambuco.</p>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Com uma vasta área de 277,57 km², Limoeiro está localizado a 77 quilômetros da capital, Recife.</p>
                 </div>
-                <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={MapLimoeiro} width={500} alt="dashboard feature image" />
+                <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={MapLimoeiro} width={500} alt="imagem do municipio de Limoeiro/PE" />
             </div>
           </div>
       </section>

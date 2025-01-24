@@ -21,7 +21,7 @@ const SobreNos: React.FunctionComponent = () => {
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Quem Somos</h2>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">O Instituto Padre Luis Cecchin é uma instituição filantrópica de natureza civil e caráter beneficente, que atua desde 1970 prestando assistência a crianças, adolescentes, jovens, adultos, idosos e famílias do município de Limoeiro/PE que vivem em situação de exclusão, risco e vulnerabilidade social. Desenvolve atividades, projetos e programas através de ações de inclusão social fundamentado em dois pilares: educação para o protagonismo sustentável e fortalecimento da rede de proteção social, inspirados nas diretrizes do Estatuto da Criança e do Adolescente, com vistas à convivência familiar, respeitando a territorialidade conforme o Sistema Único de Assistência Social - SUAS.</p>
                 </div>
-                <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={AboutImage} alt="dashboard feature image" />
+                <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={AboutImage} alt="crianças atendidas pelo IPLC" />
             </div>
             {/* <!-- Row --> */}
             <div className="gap-1 lg:grid lg:grid-cols-2 xl:gap-16">
