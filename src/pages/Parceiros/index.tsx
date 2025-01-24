@@ -48,7 +48,7 @@ const Parceiros: React.FunctionComponent = () => {
                                 <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, a Medigral Farmácia de Manipulação apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
                             </Card>
                         </div>
-                        <div className="flex justify-center">
+                        <div className="flex justify-center mt-4">
                             <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
                                 <span className="font-rubikLight text-white">Quero ser um Parceiro</span>
                             </Button>
