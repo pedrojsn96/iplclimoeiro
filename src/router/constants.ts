@@ -11,7 +11,7 @@ const ROUTER_PATHS = {
     PE_LUIS_CECCHIN_CAUSA: '/padre-luis-cecchin/abertura-causa',
     PE_LUIS_CECCHIN_CENTENARIO: '/padre-luis-cecchin/centenario',
     ATIVIDADES: '/atividades',
-    ATIVIDADES_CARIDADE: '/atividades/projeto-caridade',
+    ATIVIDADES_CARIDADE: '/atividades/cantinho-caridade',
     ATIVIDADES_SOCIOFAMILIAR: '/atividades/sociofamiliar',
     ATIVIDADES_FORMACAO: '/atividades/formacao-geral',
     ATIVIDADES_CONVIVENCIA: '/atividades/servico-convivencia',

@@ -1,8 +1,14 @@
 
 import React from 'react';
 import { Footer, Header } from '../../../../shared';
+import { sendEvent } from '../../../../analytics';
 
 const ServicoConvivencia: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Serviço de Convivência'
+    })
+  }, []);
 
   return (
     <>

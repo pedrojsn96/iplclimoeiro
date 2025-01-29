@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button, Timeline as TimelineComponent } from 'flowbite-react';
 import { Footer, Header } from '../../../../shared';
+import { sendEvent } from '../../../../analytics';
 
 const Timeline: React.FunctionComponent = () => {
   const CalendarIcon = () => {
@@ -10,6 +11,12 @@ const Timeline: React.FunctionComponent = () => {
     </svg>
     );
   };
+
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Linha do Tempo'
+    })
+  }, []);
 
   return (
     <>

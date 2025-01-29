@@ -8,8 +8,22 @@ import HiperCordeiro from "../../images/parceiros/hiper-cordeiro.png";
 import HiperCordeiroMercado from "../../images/parceiros/hiper-cordeiro-mercado.png";
 import Medigral from "../../images/parceiros/medigral-logo.png";
 import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.png";
+import { sendEvent } from '../../analytics';
 
 const Parceiros: React.FunctionComponent = () => {
+    React.useEffect(() => {
+        sendEvent('Page View', {
+          'Page Name': 'Parceiros'
+        })
+      }, []);
+
+      const handleParceiro = () => {
+        sendEvent('Click', {
+          'Button Name': 'Quero ser um Parceiro',
+          'Page Name': 'Parceios'
+        })
+        window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!');
+      };
 
   return (
     <>
@@ -49,7 +63,7 @@ const Parceiros: React.FunctionComponent = () => {
                             </Card>
                         </div>
                         <div className="flex justify-center mt-4">
-                            <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
+                            <Button color='primary' size="lg" onClick={handleParceiro}>
                                 <span className="font-rubikLight text-white">Quero ser um Parceiro</span>
                             </Button>
                         </div>

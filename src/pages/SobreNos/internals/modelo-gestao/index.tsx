@@ -2,8 +2,14 @@
 import React from 'react';
 import { Footer, Header } from '../../../../shared';
 import ModeloGestaoImg from "../../../../images/modelo-gestao.png";
+import { sendEvent } from '../../../../analytics';
 
 const ModeloGestao: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Modelo de Gestão'
+    })
+  }, []);
 
   return (
     <>

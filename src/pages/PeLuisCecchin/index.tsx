@@ -2,8 +2,14 @@
 import React from 'react';
 import { Footer, Header } from '../../shared';
 import PeLuisImage from "../../images/padre-luis-cecchin.jpg";
+import { sendEvent } from '../../analytics';
 
 const PeLuisCecchin: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Pe Luis Cecchin'
+    })
+  }, []);
 
   return (
     <>

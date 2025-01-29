@@ -4,9 +4,16 @@ import { Footer, Header } from '../../shared';
 import { Button } from 'flowbite-react';
 import { useNavigate } from 'react-router-dom';
 import ROUTER_PATHS from '../../router/constants';
+import { sendEvent } from '../../analytics';
 
 const OndeAtuamos: React.FunctionComponent = () => {
     const navigate = useNavigate();
+
+    React.useEffect(() => {
+        sendEvent('Page View', {
+          'Page Name': 'Atividades'
+        })
+      }, []);
 
   return (
     <>

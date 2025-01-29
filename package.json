@@ -3,8 +3,7 @@
   "name": "iplclimoeiro",
   "private": true,
   "engines": {
-    "node": "22.4.0",
-    "npm": "10.8.1"
+    "node": "22.4.0"
   },
   "version": "0.0.0",
   "type": "module",
@@ -20,11 +19,13 @@
     "axios": "^1.7.2",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
+    "mixpanel-browser": "^2.59.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
+    "@types/mixpanel-browser": "^2.51.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",

@@ -3,8 +3,22 @@ import React from 'react';
 import { Footer, Header } from '../../shared';
 import { Button } from 'flowbite-react';
 import PIXImage from "../../images/qr-code-pix.png";
+import { sendEvent } from '../../analytics';
 
 const Doacao: React.FunctionComponent = () => {
+    React.useEffect(() => {
+        sendEvent('Page View', {
+          'Page Name': 'Como Doar'
+        })
+      }, []);
+      
+    const handleDoacao = () => {
+        sendEvent('Click', {
+            'Button Name': 'Quero ser um benfeitor',
+            'Page Name': 'Como doar'
+        })
+        window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')
+    };
 
   return (
     <>
@@ -54,7 +68,7 @@ const Doacao: React.FunctionComponent = () => {
                         </div>
 
                         <div className="flex justify-center">
-                            <Button color='primary' size="lg" onClick={() => window.open('https://wa.me/+5581985304323?text=Ol%C3%A1%20IPLC%2C%20quero%20fazer%20parte%20dessa%20transforma%C3%A7%C3%A3o!')}>
+                            <Button color='primary' size="lg" onClick={handleDoacao}>
                                 <span className="font-rubikLight text-white">Quero ser um benfeitor</span>
                             </Button>
                         </div>

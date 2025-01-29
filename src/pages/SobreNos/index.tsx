@@ -6,8 +6,14 @@ import MissaoImage from "../../images/missao-iplc.png";
 import VisaoImage from "../../images/visao-iplc.png";
 import ValoresImage from "../../images/valores-iplc.png";
 import { Accordion } from 'flowbite-react';
+import { sendEvent } from '../../analytics';
 
 const SobreNos: React.FunctionComponent = () => {
+    React.useEffect(() => {
+        sendEvent('Page View', {
+          'Page Name': 'Sobre Nós'
+        })
+      }, []);
 
   return (
     <>

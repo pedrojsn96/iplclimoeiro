@@ -2,8 +2,14 @@
 import React from 'react';
 import { Footer, Header } from '../../shared';
 import { Table } from 'flowbite-react';
+import { sendEvent } from '../../analytics';
 
 const Transparencia: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Transparência'
+    })
+  }, []);
 
   return (
     <>

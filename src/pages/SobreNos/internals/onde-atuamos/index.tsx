@@ -2,8 +2,14 @@
 import React from 'react';
 import { Footer, Header } from '../../../../shared';
 import MapLimoeiro from "../../../../images/map-limoeiro.png";
+import { sendEvent } from '../../../../analytics';
 
 const OndeAtuamos: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Onde Atuamos'
+    })
+  }, []);
 
   return (
     <>

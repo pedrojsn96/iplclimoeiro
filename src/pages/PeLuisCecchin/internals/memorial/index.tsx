@@ -10,8 +10,14 @@ import Memorial6 from "../../../../images/memorial/Memorial_PLC_5.png";
 import Memorial7 from "../../../../images/memorial/Memorial_PLC_6.png";
 import Memorial8 from "../../../../images/memorial/Memorial_PLC_7.png";
 import { Carousel } from 'flowbite-react';
+import { sendEvent } from '../../../../analytics';
 
 const Memorial: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Memorial'
+    })
+  }, []);
 
   return (
     <>

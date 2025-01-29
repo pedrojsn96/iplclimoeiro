@@ -3,10 +3,18 @@ import LogoImage from '../images/logo-iplc.svg';
 import { Button, Navbar, MegaMenu } from "flowbite-react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import ROUTER_PATHS from '../router/constants';
+import { sendEvent } from '../analytics';
 
 const Header: React.FunctionComponent = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
+  const handleFaçaParte = () => {
+    sendEvent('Click', {
+      'Button Name': 'Faça parte',
+      'Page Name': 'Header'
+    })
+    navigate(ROUTER_PATHS.CONTATO);
+  };
 
   return (
     <Navbar className="grid max-w-screen-xl px-4 pt-8 pb-8 mx-auto items-center">
@@ -14,7 +22,7 @@ const Header: React.FunctionComponent = () => {
         <img className="w-full mb-4 rounded-lg lg:mb-0 lg:flex max-h-20 max-w-20" src={LogoImage} alt="IPLC Logo" />
     </Navbar.Brand>
     <div className="flex md:order-2">
-      <Button color="primary" onClick={() => navigate(ROUTER_PATHS.CONTATO)} size="lg">
+      <Button color="primary" onClick={handleFaçaParte} size="lg">
           <span className="font-rubikLight text-white">Faça parte</span>
       </Button>
       <Navbar.Toggle />

@@ -5,12 +5,19 @@ import { Button } from 'flowbite-react';
 import ROUTER_PATHS from '../../../router/constants';
 
 import AboutImage from "../../../images/iplc-about.png";
-import MissaoImage from "../../../images/missao-iplc.png";
-import VisaoImage from "../../../images/visao-iplc.png";
-import ValoresImage from "../../../images/valores-iplc.png";
+import { sendEvent } from '../../../analytics';
 
 const AboutUs: React.FunctionComponent = () => {
     const navigate = useNavigate();
+
+    const handleAtividades = () => {
+        sendEvent('Click', {
+          'Button Name': 'Conheça nossas atividades',
+          'Page Name': 'Home'
+        })
+        navigate(ROUTER_PATHS.CONTATO);
+      };
+
     return (
         <React.Fragment>
             <section className="bg-gray-50">
@@ -46,7 +53,7 @@ const AboutUs: React.FunctionComponent = () => {
                         </dl>
                     </div>
                     <div className="flex justify-center">
-                        <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.ATIVIDADES)}>
+                        <Button color='primary' size="sm" onClick={handleAtividades}>
                             <span className="font-rubikLight text-white">Conheça nossas atividades</span>
                         </Button>
                     </div>

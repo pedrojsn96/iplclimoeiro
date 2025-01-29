@@ -4,9 +4,24 @@ import { Footer, Header } from '../../shared';
 import { Button } from 'flowbite-react';
 import { useNavigate } from 'react-router-dom';
 import ROUTER_PATHS from '../../router/constants';
+import { sendEvent } from '../../analytics';
 
-const OndeAtuamos: React.FunctionComponent = () => {
+const Contato: React.FunctionComponent = () => {
   const navigate = useNavigate();
+
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Contato'
+    })
+  }, []);
+
+  const handleBenfeitor = () => {
+      sendEvent('Click', {
+          'Button Name': 'Seja um benfeitor',
+          'Page Name': 'Contato'
+      })
+      navigate(ROUTER_PATHS.DOACAO);
+  };
 
   return (
     <>
@@ -23,7 +38,7 @@ const OndeAtuamos: React.FunctionComponent = () => {
                   O benfeitor do Instituto padre Luis Cecchin é um agente de transformação que confia e apoia as ações desenvolvidas favorecendo caminhos de oportunidades para um novo amanhã como sempre quis o tão querido fundador, o Pe. Luís Cecchin.
                 </p>
                 <div className="flex justify-center">
-                  <Button color='primary' size="sm" onClick={() => navigate(ROUTER_PATHS.DOACAO)}>
+                  <Button color='primary' size="sm" onClick={handleBenfeitor}>
                       <span className="font-rubikLight text-white">Seja um benfeitor</span>
                   </Button>
                 </div>
@@ -96,4 +111,4 @@ const OndeAtuamos: React.FunctionComponent = () => {
   )
 }
 
-export default OndeAtuamos;
+export default Contato;

@@ -2,8 +2,14 @@
 import React from 'react';
 import { Footer, Header } from '../../../../shared';
 import { Alert } from 'flowbite-react';
+import { sendEvent } from '../../../../analytics';
 
 const Centenario: React.FunctionComponent = () => {
+  React.useEffect(() => {
+    sendEvent('Page View', {
+      'Page Name': 'Centenário'
+    })
+  }, []);
 
   return (
     <>
