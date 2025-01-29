@@ -12,9 +12,6 @@ const MixpanelInit = () => {
 type EventType = string | 'Page View' | 'Click';
 
 const sendEvent = (event_name: EventType, properties?: any) => {
-    console.log('Mixpanel Send Event');
-    console.log('event_name: ', event_name);
-    console.log('properties: ', properties);
     mixpanel.track(event_name, properties)
 };
 
