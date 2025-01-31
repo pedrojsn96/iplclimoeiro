@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer as FlowbiteFooter } from 'flowbite-react';
+import { Footer as FlowbiteFooter, FooterDivider } from 'flowbite-react';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import LogoImage from '../images/logo-iplc.svg';
 import PobresServosLogoImage from '../images/pobres-servos-horizontal.svg';
@@ -19,6 +19,12 @@ const Footer: React.FunctionComponent = () => {
               </a>
             </div>
         </div>
+        <div className="flex items-center justify-center mb-2">
+          <div className="grid grid-cols-1 items-center">
+            <a className='font-rubikLight hover:text-iplc text-base' href='https://iplclimoeiro.org.br/view/login.php'>Área Administrativa</a>
+          </div>
+        </div>
+        {/* <FooterDivider /> */}
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 items-center">
             <FlowbiteFooter.Copyright href="" by="IPLC. Todos os direitos reservados." year={2025} className="font-rubikMedium" />
