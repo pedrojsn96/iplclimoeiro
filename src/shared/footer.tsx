@@ -3,8 +3,16 @@ import { Footer as FlowbiteFooter, FooterDivider } from 'flowbite-react';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import LogoImage from '../images/logo-iplc.svg';
 import PobresServosLogoImage from '../images/pobres-servos-horizontal.svg';
+import { sendEvent } from '../analytics';
 
 const Footer: React.FunctionComponent = () => {
+
+  const handleAreaAdministrativa = () => {
+    sendEvent('Click', {
+        'Button Name': 'Área Administrativa',
+        'Page Name': 'Footer'
+    })
+};
 
   return (
     <FlowbiteFooter container>
@@ -21,7 +29,7 @@ const Footer: React.FunctionComponent = () => {
         </div>
         <div className="flex items-center justify-center mb-2">
           <div className="grid grid-cols-1 items-center">
-            <a className='font-rubikLight hover:text-iplc text-base' href='https://iplclimoeiro.org.br/view/login.php'>Área Administrativa</a>
+            <a className='font-rubikLight hover:text-iplc text-base' href='https://iplclimoeiro.org.br/view/login.php' onClick={handleAreaAdministrativa}>Área Administrativa</a>
           </div>
         </div>
         {/* <FooterDivider /> */}
