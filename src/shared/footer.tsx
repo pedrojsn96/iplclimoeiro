@@ -29,7 +29,7 @@ const Footer: React.FunctionComponent = () => {
         </div>
         <div className="flex items-center justify-center mb-2">
           <div className="grid grid-cols-1 items-center">
-            <a className='font-rubikLight hover:text-iplc text-base' href='https://iplclimoeiro.org.br/view/login.php' onClick={handleAreaAdministrativa}>Área Administrativa</a>
+            <a className='font-rubikLight hover:text-iplc text-base' href='https://iplclimoeiro.org.br/view/login.php' onClick={handleAreaAdministrativa} target='_blank'>Área Administrativa</a>
           </div>
         </div>
         {/* <FooterDivider /> */}
