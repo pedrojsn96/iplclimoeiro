@@ -21,18 +21,15 @@ const ServicoConvivencia: React.FunctionComponent = () => {
                 <div className="text-gray-500 sm:text-lg">
                     <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Serviço de Convivência e Fortalecimento de Vínculos para Crianças e Adolescentes</h2>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
-                    O Serviço de Convivência e Fortalecimento de Vínculos para crianças e adolescentes é uma
-modalidade de atendimento que oferece formação para a participação cidadã e o desenvolvimento
-do protagonismo e da autonomia de crianças e adolescentes entre 6 e 15 anos, considerando seus
-interesses, demandas e potencialidades. As atividades são realizadas no contraturno escolar, com
-intervenções que se baseiam em experiências lúdicas, culturais e esportivas, promovendo a
-expressão, interação, aprendizagem, sociabilidade e proteção social. Entre as atividades oferecidas,
-destacam-se oficinas de inclusão digital, artesanato, horticultura, esportes, recreação, música,
-capoeira e formação humano/cristã. Além disso, as ações têm como objetivo o combate ao trabalho
-infantil e outras violações de direitos, contribuindo para ressignificar experiências de isolamento e
-violação de direitos. Essas atividades proporcionam vivências que favorecem o desenvolvimento da
-sociabilidade e a prevenção de situações de risco social. Para garantir a segurança alimentar e
-nutricional dos beneficiários, são oferecidas diariamente, por turno, duas refeições balanceadas.
+                    O Serviço de Convivência e Fortalecimento de Vínculos para crianças e adolescentes é uma modalidade de atendimento que oferece formação para a participação cidadã e o desenvolvimento do protagonismo e da autonomia de crianças e adolescentes entre 6 e 15 anos, garantindo segurança nutricional e alimentar.
+                    <br/>O Serviço de Convivência e Fortalecimento de Vínculos (SCFV) é a atividade pioneira do Instituto Padre Luis Cecchin. Iniciado na década de 1970 com o atendimento de 50 crianças, o serviço expandiu-se e, atualmente, tem capacidade para acolher 250 crianças e adolescentes no contraturno escolar. Além de oferecer segurança alimentar e nutricional, proporciona duas refeições balanceadas por turno e reforça as noções de higiene.
+                    <br/>As atividades são organizadas em oficinas que atendem aos interesses, demandas e potencialidades dessa faixa etária. Planejadas com base em experiências lúdicas, culturais e esportivas, essas oficinas promovem a expressão, a interação, a aprendizagem, a sociabilidade e a proteção social. Entre as atividades ofertadas, destacam-se inclusão digital, artesanato, horticultura, esportes, recreação, música, capoeira e formação humano-cristã tendo como foco o estímulo à leitura e escrita, diferentes formas de expressão e comunicação, autoliderança e organização do tempo.
+                    <br/>As vivências proporcionadas favorecem o desenvolvimento da sociabilidade e atuam na prevenção de situações de risco social. A articulação com a rede socioassistencial, incluindo órgãos municipais e outros setores, fortalece a garantia dos direitos das crianças e adolescentes. O acompanhamento familiar também é uma ação essencial para o desenvolvimento dos participantes.
+                    <br/>Além disso, o SCFV tem como objetivo combater a exploração e o trabalho infantil, bem como outras violações de direitos, seguindo as diretrizes do Estatuto da Criança e do Adolescente, da Política de Proteção Infantil e da Lei Geral de Proteção de Dados.
+                    <br/>Por fim, o Serviço de Convivência e Fortalecimento de Vínculos se consolida como um espaço de transformação social, refletido em iniciativas como o Coral Padre Luís Cecchin e o Grupo de Capoeira, ambos formados pelos beneficiários do programa.
+                    </p>
+                    <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
+                    
                     </p>
                 </div>
             </div>
