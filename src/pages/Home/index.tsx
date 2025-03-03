@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { AboutUs, Hero, News } from './components';
-import { Header, Footer } from '../../shared';
+import { Header, Footer, ModalIR } from '../../shared';
 import { Flowbite } from 'flowbite-react';
 import customTheme from '../../shared/theme';
 import { sendEvent } from '../../analytics';
@@ -22,6 +22,7 @@ const Home: React.FunctionComponent = () => {
       <AboutUs />
       {/* <News /> */}
       <Footer />
+      <ModalIR />
     </Flowbite>
     </>
   )

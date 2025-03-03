@@ -74,6 +74,24 @@ const Doacao: React.FunctionComponent = () => {
                         </div>
                     </div>
                 </div>
+                {/* <!-- Row --> */}
+                <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
+                    <div className="text-gray-500 sm:text-lg">
+                        <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Transforme seu Imposto de Renda em Esperança!</h2>
+                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Todo contribuinte pode destinar parte do seu Imposto de Renda para ajudar quem mais precisa, sem pagar nada a mais por isso. Ao fazer sua declaração, você pode contribuir para apoiar os projetos desenvolvidos no Instituto Padre Luis Cecchin e transformar vidas. A legislação brasileira permite que pessoas físicas destinem até 6% do imposto devido e pessoas jurídicas até 1%, direcionando esses valores para fundos de assistência à criança, ao adolescente e ao idoso. 
+                        <br/>Essa doação não altera o valor a pagar ou a restituir no Imposto de Renda. O que acontece é que, ao invés de todo o imposto ir para o governo, uma parte dele é direcionada para causas que fazem a diferença, como o IPLC que atua criando caminhos de oportunidades para um novo amanhã.
+                        </p>
+                        <p className="font-rubikRegular mb-4 font-light lg:text-xl text-justify"><b>É bem simples para declarar esperança: </b>
+                            <ol className="ps-4 mt-2 space-y-1 list-decimal list-inside">
+                                <li className='font-rubikLight'>No momento da declaração, acesse a opção de doação diretamente no programa da Receita Federal.</li>
+                                <li className='font-rubikLight'>Escolha o fundo Municipal de Defesa dos Direitos da Criança e do Adolescente de Limoeiro – CNPJ: 08.921.479/0001-00 ou o Fundo Municipal de Direitos do Idoso de Limoeiro – CNPJ: 48.560.864/0001-94, devidamente autorizados para receber a doação.</li>
+                                <li className='font-rubikLight'>Gere o DARF (Documento de Arrecadação) e efetue o pagamento até o prazo final da declaração, envie o documento para a Instituição através do contato: <b>(81) 9 8530-4323</b> ou no e-mail <b>sustentabilidade@iplclimoeiro.org.br</b>.</li>
+                                <li className='font-rubikLight'>Pronto! A contribuição irá renovar a esperança de alguém!</li>
+                            </ol>
+                        </p>
+                        <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">Ao doar parte do imposto, o contribuinte exerce a cidadania e fortalece iniciativas que mudam vidas. Não deixe essa oportunidade passar! Informe-se, faça a doação e compartilhe essa ideia com amigos e familiares.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <Footer />
