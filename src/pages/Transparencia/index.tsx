@@ -135,6 +135,19 @@ const Transparencia: React.FunctionComponent = () => {
                               </a>
                             </Table.Cell>
                           </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              Relatório Social
+                            </Table.Cell>
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              2024
+                            </Table.Cell>
+                            <Table.Cell>
+                              <a href="https://drive.google.com/file/d/1IkVNuaxHZF1nhd2oTgJQ2lUFR_LHfVHP/view" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                                Baixar
+                              </a>
+                            </Table.Cell>
+                          </Table.Row>
                         </Table.Body>
                       </Table>
                   </div>
