@@ -7,7 +7,7 @@ import HiperAtacarejo from "../../images/parceiros/hiper-atacarejo.png";
 import HiperCordeiro from "../../images/parceiros/hiper-cordeiro.png";
 import HiperCordeiroMercado from "../../images/parceiros/hiper-cordeiro-mercado.png";
 import Medigral from "../../images/parceiros/medigral-logo.png";
-import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.png";
+import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.jpeg";
 import { sendEvent } from '../../analytics';
 
 const Parceiros: React.FunctionComponent = () => {
