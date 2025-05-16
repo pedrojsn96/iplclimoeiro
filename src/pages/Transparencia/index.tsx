@@ -70,54 +70,15 @@ const Transparencia: React.FunctionComponent = () => {
                           </Table.HeadCell>
                         </Table.Head>
                         <Table.Body className="divide-y">
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                        <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
                               Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2018
+                              2024
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="https://drive.google.com/file/d/1XuuHetXP3t69GFaIwjV25MUgEdvOW1eB/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
-                                Baixar
-                              </a>
-                            </Table.Cell>
-                          </Table.Row>
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social
-                            </Table.Cell>
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2020
-                            </Table.Cell>
-                            <Table.Cell>
-                              <a href="https://drive.google.com/file/d/1Z7WNIWs1DM_OMDtkPAjsIAfrKU4poNwc/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
-                                Baixar
-                              </a>
-                            </Table.Cell>
-                          </Table.Row>
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social
-                            </Table.Cell>
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2021
-                            </Table.Cell>
-                            <Table.Cell>
-                              <a href="https://drive.google.com/file/d/1ADcwhMNW9y-JZbCinDFra1DVC10XoQt6/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
-                                Baixar
-                              </a>
-                            </Table.Cell>
-                          </Table.Row>
-                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              Relatório Social
-                            </Table.Cell>
-                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2022
-                            </Table.Cell>
-                            <Table.Cell>
-                              <a href="https://drive.google.com/file/d/1XZsOxsIMF6z6nS8KngK8XJynHUszbJXi/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1IkVNuaxHZF1nhd2oTgJQ2lUFR_LHfVHP/view" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
@@ -140,10 +101,49 @@ const Transparencia: React.FunctionComponent = () => {
                               Relatório Social
                             </Table.Cell>
                             <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
-                              2024
+                              2022
                             </Table.Cell>
                             <Table.Cell>
-                              <a href="https://drive.google.com/file/d/1IkVNuaxHZF1nhd2oTgJQ2lUFR_LHfVHP/view" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                              <a href="https://drive.google.com/file/d/1XZsOxsIMF6z6nS8KngK8XJynHUszbJXi/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                                Baixar
+                              </a>
+                            </Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              Relatório Social
+                            </Table.Cell>
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              2021
+                            </Table.Cell>
+                            <Table.Cell>
+                              <a href="https://drive.google.com/file/d/1ADcwhMNW9y-JZbCinDFra1DVC10XoQt6/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                                Baixar
+                              </a>
+                            </Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              Relatório Social
+                            </Table.Cell>
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              2020
+                            </Table.Cell>
+                            <Table.Cell>
+                              <a href="https://drive.google.com/file/d/1Z7WNIWs1DM_OMDtkPAjsIAfrKU4poNwc/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
+                                Baixar
+                              </a>
+                            </Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              Relatório Social
+                            </Table.Cell>
+                            <Table.Cell className="font-rubikRegular whitespace-nowrap font-medium text-gray-900">
+                              2018
+                            </Table.Cell>
+                            <Table.Cell>
+                              <a href="https://drive.google.com/file/d/1XuuHetXP3t69GFaIwjV25MUgEdvOW1eB/view?usp=sharing" target='_blank' className="font-rubikRegular font-medium text-cyan-600 hover:underline">
                                 Baixar
                               </a>
                             </Table.Cell>
