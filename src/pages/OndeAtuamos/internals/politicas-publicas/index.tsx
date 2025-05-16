@@ -6,7 +6,7 @@ import { sendEvent } from '../../../../analytics';
 const EducacaoInfantil: React.FunctionComponent = () => {
   React.useEffect(() => {
     sendEvent('Page View', {
-      'Page Name': 'Educação Infantil'
+      'Page Name': 'Políticas Públicas'
     })
   }, []);
 
@@ -15,7 +15,7 @@ const EducacaoInfantil: React.FunctionComponent = () => {
       <Header />
       <section className="bg-gray-50">
         <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-8 lg:py-24 lg:px-6">
-            <h1 className="font-rubikBold text-neutral-700 mb-4 text-4xl tracking-tight">Educação</h1>
+            <h1 className="font-rubikBold text-neutral-700 mb-4 text-4xl tracking-tight">Políticas Públicas</h1>
             {/* <!-- Row --> */}
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
@@ -27,7 +27,7 @@ const EducacaoInfantil: React.FunctionComponent = () => {
             {/* <!-- Row --> */}
             <div className="gap-8 lg:grid lg:grid-cols-1 xl:gap-16">
                 <div className="text-gray-500 sm:text-lg">
-                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Educação Infantil</h2>
+                    <h2 className="font-rubikRegular text-neutral-700 mb-4 text-3xl tracking-tight">Políticas Públicas</h2>
                     <p className="font-rubikLight mb-4 font-light lg:text-xl text-justify">
                     Tendo a criança no centro de todas as atividades desenvolvidas, os Centros Municipais de Educação Infantil Padre Luís Cecchin e Sagrada Família em conformidade com as diretrizes das Políticas Públicas de Educação, a Prefeitura Municipal de Limoeiro através do ACORDO DE COOPERAÇÃO oportuniza 257 atendimentos para a faixa etária dos 06 meses aos 4 anos e 11 meses.
                     </p>

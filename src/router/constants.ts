@@ -15,7 +15,7 @@ const ROUTER_PATHS = {
     ATIVIDADES_SOCIOFAMILIAR: '/atividades/sociofamiliar',
     ATIVIDADES_FORMACAO: '/atividades/formacao-geral',
     ATIVIDADES_CONVIVENCIA: '/atividades/servico-convivencia',
-    ATIVIDADES_INFANTIL: '/atividades/educacao-infantil',
+    ATIVIDADES_INFANTIL: '/atividades/politicas-publicas',
     PARCEIROS: '/parceiros',
     DOACAO: '/doacao',
     NOTICIAS: '/noticias',

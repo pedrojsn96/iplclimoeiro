@@ -65,10 +65,10 @@ const Header: React.FunctionComponent = () => {
             <div className="space-y-4 p-4">
               <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES)} className='font-rubikRegular hover:text-iplc'>Atividades</Navbar.Link></li>
               <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_CARIDADE)} className='font-rubikRegular hover:text-iplc'>Cantinho Caridade</Navbar.Link></li>
-              <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR)} className='font-rubikRegular hover:text-iplc'>Atividade Sociofamiliar</Navbar.Link></li>
+              <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_SOCIOFAMILIAR)} className='font-rubikRegular hover:text-iplc'>Agricultura Sociofamiliar</Navbar.Link></li>
               <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_FORMACAO)} className='font-rubikRegular hover:text-iplc'>Formação Geral para o Mundo do Trabalho</Navbar.Link></li>
               <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_CONVIVENCIA)} className='font-rubikRegular hover:text-iplc'>Serviço de Convivência e Fortalecimento de Vínculos</Navbar.Link></li>
-              <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_INFANTIL)} className='font-rubikRegular hover:text-iplc'>Educação Infantil</Navbar.Link></li>
+              <li><Navbar.Link style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTER_PATHS.ATIVIDADES_INFANTIL)} className='font-rubikRegular hover:text-iplc'>Políticas Públicas</Navbar.Link></li>
             </div>
           </ul>
         </MegaMenu.Dropdown>
