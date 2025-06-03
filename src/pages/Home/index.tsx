@@ -22,7 +22,7 @@ const Home: React.FunctionComponent = () => {
       <AboutUs />
       {/* <News /> */}
       <Footer />
-      <ModalIR />
+      {/* <ModalIR /> */}
     </Flowbite>
     </>
   )
