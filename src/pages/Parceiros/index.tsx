@@ -8,6 +8,7 @@ import HiperCordeiro from "../../images/parceiros/hiper-cordeiro.png";
 import HiperCordeiroMercado from "../../images/parceiros/hiper-cordeiro-mercado.png";
 import Medigral from "../../images/parceiros/medigral-logo.png";
 import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.jpeg";
+import CasaPrimor from "../../images/parceiros/casa-primor.png";
 import { sendEvent } from '../../analytics';
 
 const Parceiros: React.FunctionComponent = () => {
@@ -60,6 +61,10 @@ const Parceiros: React.FunctionComponent = () => {
                             <Card className="max-w-xs" imgAlt="Medigral" imgSrc={Medigral}>
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Medigral Farmácia de Manipulação</h5>
                                 <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, a Medigral Farmácia de Manipulação apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
+                            </Card>
+                            <Card className="max-w-xs" imgAlt="Medigral" imgSrc={CasaPrimor}>
+                                <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Casa Primor</h5>
+                                <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, a Casa Primor apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
                             </Card>
                         </div>
                         <div className="flex justify-center mt-4">
