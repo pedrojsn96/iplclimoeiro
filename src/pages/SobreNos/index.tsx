@@ -122,6 +122,18 @@ const SobreNos: React.FunctionComponent = () => {
                                 <p className="mb-2 font-rubikLight font-light text-justify">A simplicidade é escolher o que é essencial deliberadamente e conscientemente. É ter liberdade, mas também ter foco, não se distrair com influências externas, com a cultura do consumo. É eliminar o supérfluo para revelar nossos verdadeiros dons.</p>
                             </Accordion.Content>
                         </Accordion.Panel>
+                        <Accordion.Panel>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A QUALIDADE</Accordion.Title>
+                            <Accordion.Content>
+                                <p className="mb-2 font-rubikLight font-light text-justify">Comprometimento com a excelência, a busca constante busca por realizar uma  entrega de qualidade.</p>
+                            </Accordion.Content>
+                        </Accordion.Panel>
+                        <Accordion.Panel>
+                            <Accordion.Title className='font-rubikBold font-light text-gray-700'>A ÉTICA</Accordion.Title>
+                            <Accordion.Content>
+                                <p className="mb-2 font-rubikLight font-light text-justify">Princípio que orienta o comportamento e as ações individual e coletivamente.</p>
+                            </Accordion.Content>
+                        </Accordion.Panel>
                     </Accordion>
                 </div>
             </div>
