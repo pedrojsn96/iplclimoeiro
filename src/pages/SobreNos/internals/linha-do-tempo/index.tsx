@@ -66,7 +66,7 @@ const Timeline: React.FunctionComponent = () => {
                           <TimelineComponent.Time className='font-rubikLight mb-4 font-light lg:text-base text-justify'>1974</TimelineComponent.Time>
                           <TimelineComponent.Title className='font-rubikBold font-li text-gray-700'>Inauguração do Prédio da Sede</TimelineComponent.Title>
                           <TimelineComponent.Body className='font-rubikLight mb-4 font-light lg:text-xl text-justify'>
-                          Com o apoio da comunidade e benfeitores, no dia 16 de novembro de 1970 foi inaugurado o prédio da sede do Centro de Formação de Menores.
+                          Com o apoio da comunidade e benfeitores, no dia 16 de novembro de 1974 foi inaugurado o prédio da sede do Centro de Formação de Menores.
                           </TimelineComponent.Body>
                         </TimelineComponent.Content>
                       </TimelineComponent.Item>
