@@ -43,12 +43,12 @@ const AboutUs: React.FunctionComponent = () => {
                                 <dd className="font-rubikLight text-gray-500">modalidades de atendimento</dd>
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">1 mil +</dt>
-                                <dd className="font-rubikLight text-gray-500">atendimentos diretos</dd>
+                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">1036</dt>
+                                <dd className="font-rubikLight text-gray-500">beneficiários diretos</dd>
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">500 +</dt>
-                                <dd className="font-rubikLight text-gray-500">atendimentos indiretos</dd>
+                                <dt className="mb-2 text-3xl md:text-4xl font-rubikBold">2119</dt>
+                                <dd className="font-rubikLight text-gray-500">beneficiários indiretos</dd>
                             </div>
                         </dl>
                     </div>
