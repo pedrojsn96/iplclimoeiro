@@ -9,6 +9,7 @@ import HiperCordeiroMercado from "../../images/parceiros/hiper-cordeiro-mercado.
 import Medigral from "../../images/parceiros/medigral-logo.png";
 import PrefeituraLimoeiro from "../../images/parceiros/prefeitura-limoeiro.jpeg";
 import CasaPrimor from "../../images/parceiros/casa-primor.png";
+import DTEL from "../../images/parceiros/DTEL.png";
 import { sendEvent } from '../../analytics';
 
 const Parceiros: React.FunctionComponent = () => {
@@ -65,6 +66,10 @@ const Parceiros: React.FunctionComponent = () => {
                             <Card className="max-w-xs" imgAlt="Medigral" imgSrc={CasaPrimor}>
                                 <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">Casa Primor</h5>
                                 <p className="font-rubikLight mb-1 font-light text-base text-justify">Através do Projeto Troco Solidário: centavos que transformam vidas, a Casa Primor apoia e colabora com as atividades desenvolvidas pelo Instituto Padre Luis Cecchin (IPLC).</p>
+                            </Card>
+                            <Card className="max-w-xs" imgAlt="DTEL" imgSrc={DTEL}>
+                                <h5 className="font-rubikBold text-gray-800 mb-1 text-base tracking-tight">DTEL</h5>
+                                <p className="font-rubikLight mb-1 font-light text-base text-justify">Instituto Padre Luis Cecchin (IPLC) e DTEL: uma parceria transformadora! Juntos, conectando pessoas, oportunidades e sonhos.</p>
                             </Card>
                         </div>
                         <div className="flex justify-center mt-4">
